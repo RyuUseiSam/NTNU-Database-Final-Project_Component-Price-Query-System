@@ -1,0 +1,3972 @@
+[
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "UMAX",
+        "capacity": "240GB",
+        "read_speed": "520",
+        "write_speed": "450",
+        "warranty": "3",
+        "price": "490",
+        "original_info": "UMAX S330 240GB /2.5\u540b \u8b80:520MB\u5beb:450MB/3D NAND Flash\u3010\u4e09\u5e74\u4fdd\u3011, $490 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "UMAX",
+        "capacity": "480GB",
+        "read_speed": "560",
+        "write_speed": "450",
+        "warranty": "3",
+        "price": "880",
+        "original_info": "UMAX S330 480GB /2.5\u540b \u8b80:560MB\u5beb:450MB/3D NAND Flash\u3010\u4e09\u5e74\u4fdd\u3011, $880 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "UMAX",
+        "capacity": "960GB",
+        "read_speed": "560",
+        "write_speed": "500",
+        "warranty": "3",
+        "price": "1600",
+        "original_info": "UMAX S330 960GB /2.5\u540b \u8b80:560MB\u5beb:500MB/3D NAND Flash\u3010\u4e09\u5e74\u4fdd\u3011, $1600 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "120GB",
+        "read_speed": "520",
+        "write_speed": "320",
+        "warranty": "3",
+        "price": "388",
+        "original_info": "\u5a01\u525b Ultimate SU650 120G/2.5\u540b/\u8b80:520M/\u5beb:320M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $388 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "240GB",
+        "read_speed": "520",
+        "write_speed": "450",
+        "warranty": "3",
+        "price": "599",
+        "original_info": "\u5a01\u525b Ultimate SU650 240G/2.5\u540b/\u8b80:520M/\u5beb:450M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $599 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "480GB",
+        "read_speed": "520",
+        "write_speed": "450",
+        "warranty": "3",
+        "price": "999",
+        "original_info": "\u5a01\u525b Ultimate SU650 480G/2.5\u540b/\u8b80:520M/\u5beb:450M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $999 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "250GB",
+        "read_speed": "550",
+        "write_speed": "525",
+        "warranty": "5",
+        "price": "1100",
+        "original_info": "WD Blue SA510 250GB(\u85cd\u6a19)/2.5\u540b/\u8b80:550M/\u5beb:525M/3D TLC\u9846\u7c92\u3010\u4e94\u5e74\u4fdd\u3011, $1100 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "500GB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "5",
+        "price": "1450",
+        "original_info": "WD Blue SA510 500GB(\u85cd\u6a19)/2.5\u540b/\u8b80:560M/\u5beb:530M/3D TLC\u9846\u7c92\u3010\u4e94\u5e74\u4fdd\u3011, $1500\u2198$1450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "5",
+        "price": "2200",
+        "original_info": "WD Blue SA510 1TB(\u85cd\u6a19)/2.5\u540b/\u8b80:560M/\u5beb:530M/3D TLC\u9846\u7c92\u3010\u4e94\u5e74\u4fdd\u3011, $2200 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "240GB",
+        "read_speed": "500",
+        "write_speed": "350",
+        "warranty": "3",
+        "price": "750",
+        "original_info": "\u91d1\u58eb\u9813 A400 240G/2.5\u540b/\u8b80:500M/\u5beb:350M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $750 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "480GB",
+        "read_speed": "500",
+        "write_speed": "450",
+        "warranty": "3",
+        "price": "1050",
+        "original_info": "\u91d1\u58eb\u9813 A400 480G/2.5\u540b/\u8b80:500M/\u5beb:450M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $1050 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "960GB",
+        "read_speed": "500",
+        "write_speed": "450",
+        "warranty": "3",
+        "price": "1750",
+        "original_info": "\u91d1\u58eb\u9813 A400 960G/2.5\u540b/\u8b80:500M/\u5beb:450M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $1750 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "256GB",
+        "read_speed": "550",
+        "write_speed": "500",
+        "warranty": "5",
+        "price": "799",
+        "original_info": "\u91d1\u58eb\u9813 SKC600 256G/2.5\u540b/\u8b80:550M/\u5beb:500M/SMI/3D TLC\u3010\u4e94\u5e74\u3011, $799 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "512GB",
+        "read_speed": "550",
+        "write_speed": "520",
+        "warranty": "5",
+        "price": "1570",
+        "original_info": "\u91d1\u58eb\u9813 SKC600 512G/2.5\u540b/\u8b80:550M/\u5beb:520M/SMI/3D TLC\u3010\u4e94\u5e74\u3011, $1570 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1024GB",
+        "read_speed": "550",
+        "write_speed": "520",
+        "warranty": "5",
+        "price": "2720",
+        "original_info": "\u91d1\u58eb\u9813 SKC600 1024G/2.5\u540b/\u8b80:550M/\u5beb:520M/SMI/3D TLC\u3010\u4e94\u5e74\u3011, $2720 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2048GB",
+        "read_speed": "550",
+        "write_speed": "520",
+        "warranty": "5",
+        "price": "5100",
+        "original_info": "\u91d1\u58eb\u9813 SKC600 2048G/2.5\u540b/\u8b80:550M/\u5beb:520M/SMI/3D TLC\u3010\u4e94\u5e74\u3011~\u52a0\u9001\u6ed1\u9f20\u588a~, $5100 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "240GB",
+        "read_speed": "520",
+        "write_speed": "450",
+        "warranty": "0",
+        "price": "699",
+        "original_info": "\u5341\u9293 T-Force Vulcan Z \u706b\u795eZ 240G/2.5\u540b \u8b80520MB:\u5beb450MB/3D NAND/TLC, $699 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "480GB",
+        "read_speed": "540",
+        "write_speed": "470",
+        "warranty": "0",
+        "price": "999",
+        "original_info": "\u5341\u9293 T-Force Vulcan Z \u706b\u795eZ 480G/2.5\u540b \u8b80540MB:\u5beb470MB/3D NAND/TLC, $999 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "550",
+        "write_speed": "500",
+        "warranty": "0",
+        "price": "1799",
+        "original_info": "\u5341\u9293 T-Force Vulcan Z \u706b\u795eZ 1TB/2.5\u540b \u8b80550MB:\u5beb500MB/3D NAND/TLC, $1799 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "550",
+        "write_speed": "500",
+        "warranty": "0",
+        "price": "3799",
+        "original_info": "\u5341\u9293 T-Force Vulcan Z QLC \u706b\u795eZ 2TB/2.5\u540b \u8b80550MB:\u5beb500MB/3D NAND/QLC, $3799 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "4TB",
+        "read_speed": "550",
+        "write_speed": "500",
+        "warranty": "0",
+        "price": "5799",
+        "original_info": "\u5341\u9293 T-Force Vulcan Z QLC \u706b\u795eZ 4TB/2.5\u540b \u8b80550MB:\u5beb500MB/3D NAND/QLC, $5799 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "240GB",
+        "read_speed": "540",
+        "write_speed": "500",
+        "warranty": "3",
+        "price": "680",
+        "original_info": "\u7f8e\u5149Micron Crucial BX500 240G/2.5\u540b/\u8b80:540M/\u5beb:500M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $680 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "500GB",
+        "read_speed": "540",
+        "write_speed": "500",
+        "warranty": "3",
+        "price": "949",
+        "original_info": "\u7f8e\u5149Micron Crucial BX500 500G/2.5\u540b/\u8b80:540M/\u5beb:500M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $949 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "540",
+        "write_speed": "500",
+        "warranty": "3",
+        "price": "1900",
+        "original_info": "\u7f8e\u5149Micron Crucial BX500 1TB/2.5\u540b/\u8b80:540M/\u5beb:500M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $1900 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "540",
+        "write_speed": "500",
+        "warranty": "3",
+        "price": "4050",
+        "original_info": "\u7f8e\u5149Micron Crucial BX500 2TB/2.5\u540b/\u8b80:540M/\u5beb:500M/TLC\u9846\u7c92\u3010\u4e09\u5e74\u4fdd\u3011, $4050 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "250GB",
+        "read_speed": "560",
+        "write_speed": "510",
+        "warranty": "5",
+        "price": "1000",
+        "original_info": "\u7f8e\u5149Micron Crucial MX500 250G/2.5\u540b/\u8b80:560M/\u5beb:510M/TLC/SMI\u53f0\u63a7\u5236\u5668\u3010\u4e94\u5e74\u3011, $1000 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "500GB",
+        "read_speed": "560",
+        "write_speed": "510",
+        "warranty": "5",
+        "price": "1450",
+        "original_info": "\u7f8e\u5149Micron Crucial MX500 500G/2.5\u540b/\u8b80:560M/\u5beb:510M/TLC/SMI\u53f0\u63a7\u5236\u5668\u3010\u4e94\u5e74\u3011, $1450 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "560",
+        "write_speed": "510",
+        "warranty": "5",
+        "price": "2150",
+        "original_info": "\u7f8e\u5149Micron Crucial MX500 1TB/2.5\u540b/\u8b80:560M/\u5beb:510M/TLC/SMI\u53f0\u63a7\u5236\u5668\u3010\u4e94\u5e74\u3011, $2150 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "560",
+        "write_speed": "510",
+        "warranty": "5",
+        "price": "3788",
+        "original_info": "\u7f8e\u5149Micron Crucial MX500 2TB/2.5\u540b/\u8b80:560M/\u5beb:510M/TLC/SMI\u53f0\u63a7\u5236\u5668\u3010\u4e94\u5e74\u3011, $3788 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "560",
+        "write_speed": "510",
+        "warranty": "5",
+        "price": "7999",
+        "original_info": "\u7f8e\u5149Micron Crucial MX500 4TB/2.5\u540b/\u8b80:560M/\u5beb:510M/TLC/SMI\u53f0\u63a7\u5236\u5668\u3010\u4e94\u5e74\u3011, $7999 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "5",
+        "price": "1799",
+        "original_info": "\u4e09\u661f Samsung 870 EVO 500G/2.5\u540b/\u8b80:560/\u5beb:530/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $1799 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "5",
+        "price": "3399",
+        "original_info": "\u4e09\u661f Samsung 870 EVO 1TB/2.5\u540b/\u8b80:560/\u5beb:530/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3399 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "5",
+        "price": "5899",
+        "original_info": "\u4e09\u661f Samsung 870 EVO 2TB/2.5\u540b/\u8b80:560/\u5beb:530/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $5899 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "4TB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "5",
+        "price": "10999",
+        "original_info": "\u4e09\u661f Samsung 870 EVO 4TB/2.5\u540b/\u8b80:560/\u5beb:530/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $10999 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "3",
+        "price": "3299",
+        "original_info": "\u4e09\u661f Samsung 870 QVO 1TB/2.5\u540b/\u8b80:560/\u5beb:530/QLC/\u4e09\u5e74\u4fdd*\u661f\u777f\u5947, $3299 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "3",
+        "price": "4999",
+        "original_info": "\u4e09\u661f Samsung 870 QVO 2TB/2.5\u540b/\u8b80:560/\u5beb:530/QLC/\u4e09\u5e74\u4fdd*\u661f\u777f\u5947, $4999 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "4TB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "3",
+        "price": "8888",
+        "original_info": "\u4e09\u661f Samsung 870 QVO 4TB/2.5\u540b/\u8b80:560/\u5beb:530/QLC/\u4e09\u5e74\u4fdd*\u661f\u777f\u5947, $8888 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "8TB",
+        "read_speed": "560",
+        "write_speed": "530",
+        "warranty": "3",
+        "price": "17999",
+        "original_info": "\u4e09\u661f Samsung 870 QVO 8TB/2.5\u540b/\u8b80:560/\u5beb:530/QLC/\u4e09\u5e74\u4fdd*\u661f\u777f\u5947, $17999 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "11700",
+        "write_speed": "9500",
+        "warranty": "5",
+        "price": "5650",
+        "original_info": "\u5341\u9293 T-ForceZ540\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)1TB/Gen5 PCIe 5.0/\u8b80:11700M/\u5beb:9500M(\u4e94\u5e74\u4fdd), $5650 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "10500",
+        "original_info": "\u5341\u9293 T-ForceZ540\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)2TB/Gen5 PCIe 5.0/\u8b80:12400M/\u5beb:11800M(\u4e94\u5e74\u4fdd), $10500 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Seagate",
+        "capacity": "2TB",
+        "read_speed": "10000",
+        "write_speed": "10000",
+        "warranty": "5",
+        "price": "9888",
+        "original_info": "Seagate FireCuda 540 2TB/Gen5 PCIe 5.0/(\u706b\u68ad\u9b5a)\u8b80:10000/\u5beb:10000/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $9888 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "11700",
+        "write_speed": "9500",
+        "warranty": "5",
+        "price": "5588",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 1TB Gen5 PCIe 5.0 \u8b80:11700/\u5beb:9500/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $5588 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "9350",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 2TB Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $9350 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "18000",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 4TB Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $18500\u2198$18000 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "11700",
+        "write_speed": "9500",
+        "warranty": "5",
+        "price": "6100",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 1TB\u542b\u6563\u71b1\u7247 Gen5 PCIe 5.0 \u8b80:11700/\u5beb:9500/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $6100 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "11000",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 2TB\u542b\u6563\u71b1\u7247 Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $11000 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "19000",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 4TB\u542b\u6563\u71b1\u7247 Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $20700\u2198$19000 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6280\u5609",
+        "capacity": "1TB",
+        "read_speed": "11700",
+        "write_speed": "9500",
+        "warranty": "5",
+        "price": "5990",
+        "original_info": "\u6280\u5609 AORUS Gen5 12000 SSD 1TB \u9802\u7d1a\u6548\u80fdPCIe 5.0 \u8b80:11700/\u5beb:9500/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $5990 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6280\u5609",
+        "capacity": "2TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "9490",
+        "original_info": "\u5fae\u661f SPATIUM M570 PRO FROZR 2TB Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $9490 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "0",
+        "price": "3739",
+        "original_info": "\u4e09\u661f Samsung 990 EVO 1TB/PCIe 4.0 x4/5.0 x2/\u8b80:5000/\u5beb:4200~\u9001128G\u8a18\u61b6\u5361&\u5496\u5561\u5238~, $3739 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "0",
+        "price": "6289",
+        "original_info": "\u4e09\u661f Samsung 990 EVO 2TB/PCIe 4.0 x4/5.0 x2/\u8b80:5000/\u5beb:4200~\u9001128G\u8a18\u61b6\u5361&\u5496\u5561\u5238~, $6289 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "UMAX",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "2100",
+        "original_info": "UMAX M1300 1TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $2100 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "UMAX",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2450",
+        "original_info": "UMAX M1500 1TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:5500M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $2450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "UMAX",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6850",
+        "warranty": "5",
+        "price": "4500",
+        "original_info": "UMAX M1500 2TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6850M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $4500 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "UMAX",
+        "capacity": "4TB",
+        "read_speed": "7200",
+        "write_speed": "6850",
+        "warranty": "5",
+        "price": "8500",
+        "original_info": "UMAX M1500 4TB/Gen4 PCIe 4.0/\u8b80:7200M/\u5beb:6850M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $8500 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "500GB",
+        "read_speed": "7000",
+        "write_speed": "4700",
+        "warranty": "5",
+        "price": "1699",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 500G/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:4700/DRAM\u5feb\u53d6(\u4e94\u5e74), $1699 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2999",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 1TB/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:6500/DRAM\u5feb\u53d6(\u4e94\u5e74), $2999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "4999",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 2TB/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:6500/DRAM\u5feb\u53d6(\u4e94\u5e74), $4999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "KLEVV",
+        "capacity": "500GB",
+        "read_speed": "5000",
+        "write_speed": "3700",
+        "warranty": "5",
+        "price": "1399",
+        "original_info": "KLEVV CRAS C910 500G/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:3700/TLC\u3010\u4e94\u5e74\u3011\u8f15\u8584\u92c1\u6563\u71b1\u7247, $1399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4800",
+        "warranty": "5",
+        "price": "1999",
+        "original_info": "KLEVV CRAS C910 1TB/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:4800/TLC\u3010\u4e94\u5e74\u3011\u8f15\u8584\u92c1\u6563\u71b1\u7247, $1999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6400",
+        "warranty": "0",
+        "price": "2499",
+        "original_info": "KLEVV CRAS C930 1TB/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:6400M DRAM\u5feb\u53d6/\u9c2d\u72c0\u92c1\u6563\u71b1\u7247, $2499 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "5000",
+        "write_speed": "2700",
+        "warranty": "5",
+        "price": "1399",
+        "original_info": "\u5a01\u525b XPG S60 PRO 512G/Gen4/\u8b80:5000M/\u5beb:2700M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4500",
+        "warranty": "5",
+        "price": "2399",
+        "original_info": "\u5a01\u525b XPG S60 PRO 1TB/Gen4/\u8b80:5000M/\u5beb:4500M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4500",
+        "warranty": "5",
+        "price": "4199",
+        "original_info": "\u5a01\u525b XPG S60 PRO 2TB/Gen4/\u8b80:5000M/\u5beb:4500M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "7200",
+        "write_speed": "2600",
+        "warranty": "5",
+        "price": "1599",
+        "original_info": "\u5a01\u525b XPG S70BLADE 512G/Gen4/\u8b80:7200M/\u5beb:2600M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1599 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2599",
+        "original_info": "\u5a01\u525b XPG S70BLADE 1T/Gen4/\u8b80:7400M/\u5beb:5500M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2599 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6400",
+        "warranty": "5",
+        "price": "4479",
+        "original_info": "\u5a01\u525b XPG S70BLADE 2T/Gen4/\u8b80:7400M/\u5beb:6400M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4479 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6000",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5a01\u525b XPG S70PRO 1TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6000/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5a01\u525b XPG S70PRO 2TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4599 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "8999",
+        "original_info": "\u5a01\u525b XPG S70PRO 4TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $8999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6000",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5a01\u525b XPG S70PRO 1TB\u767d/Gen4/\u8b80:7400/\u5beb:6000/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5a01\u525b XPG S70PRO 2TB\u767d/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4599 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "8999",
+        "original_info": "\u5a01\u525b XPG S70PRO 4TB\u767d/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $8999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Solidigm",
+        "capacity": "1TB",
+        "read_speed": "4125",
+        "write_speed": "2950",
+        "warranty": "5",
+        "price": "1990",
+        "original_info": "Solidigm(\u539fINTEL) P41 Plus 1TB/Gen4 PCIe 4.0/\u8b80:4125M/\u5beb:2950M/\u4e94\u5e74, $1990 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Solidigm",
+        "capacity": "2TB",
+        "read_speed": "4125",
+        "write_speed": "3325",
+        "warranty": "5",
+        "price": "3150",
+        "original_info": "Solidigm(\u539fINTEL) P41 Plus 2TB/Gen4 PCIe 4.0/\u8b80:4125M/\u5beb:3325M/\u4e94\u5e74, $3150 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Solidigm",
+        "capacity": "512GB",
+        "read_speed": "7000",
+        "write_speed": "4700",
+        "warranty": "5",
+        "price": "1650",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 512G/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:4700M/DRAM\u5feb\u53d6/\u4e94\u5e74, $1650 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Solidigm",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2880",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 1TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6500M/DRAM\u5feb\u53d6/\u4e94\u5e74, $2880 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Solidigm",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "5100",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 2TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6500M/DRAM\u5feb\u53d6/\u4e94\u5e74, $5100 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2399",
+        "original_info": "\u5341\u9293 TEAM MP44 1TB/Gen4/\u8b80:7400M/\u5beb:6500M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $2399 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "3899",
+        "original_info": "\u5341\u9293 TEAM MP44 2TB/Gen4/\u8b80:7400M/\u5beb:7000M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $3899 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "8299",
+        "original_info": "\u5341\u9293 TEAM MP44 4TB/Gen4/\u8b80:7400M/\u5beb:6900M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $8299 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "8TB",
+        "read_speed": "7200",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "26888",
+        "original_info": "\u5341\u9293 TEAM MP44 8TB/Gen4/\u8b80:7200M/\u5beb:6000M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64by order~, $26888 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "250GB",
+        "read_speed": "3300",
+        "write_speed": "1400",
+        "warranty": "5",
+        "price": "999",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)250G/Gen4 PCIe 4.0/\u8b80:3300M/\u5beb:1400M(\u4e94\u5e74), $999 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "500GB",
+        "read_speed": "3300",
+        "write_speed": "2400",
+        "warranty": "5",
+        "price": "1199",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)500G/Gen4 PCIe 4.0/\u8b80:3300M/\u5beb:2400M(\u4e94\u5e74), $1199 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1899",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)1TB/Gen4 PCIe 4.0/\u8b80:3500M/\u5beb:3000M(\u4e94\u5e74), $1899 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "2099",
+        "original_info": "\u5341\u9293 T-ForceZ44A5\u6975\u9650\u96f6(\u77f3\u58a8\u70ef)1TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M(\u4e94\u5e74), $2099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "3699",
+        "original_info": "\u5341\u9293 T-ForceZ44A5\u6975\u9650\u96f6(\u77f3\u58a8\u70ef)2TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M(\u4e94\u5e74), $3699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5341\u9293 T-ForceA440\u9ed1\u66dc\u5973\u795e(\u96d9\u6563\u71b1)1TB/Gen4/\u8b80:7000M/\u5beb:5500M/DRAM\u5feb\u53d6(\u4e94\u5e74), $2699 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5341\u9293 T-ForceA440\u9ed1\u66dc\u5973\u795e(\u96d9\u6563\u71b1)2TB/Gen4/\u8b80:7000M/\u5beb:6900M/DRAM\u5feb\u53d6(\u4e94\u5e74), $4599 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Seagate",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6900",
+        "warranty": "0",
+        "price": "7199",
+        "original_info": "Seagate FireCuda 530 2TB\u5149\u528d\u9650\u5b9a\u7248/\u6563\u71b1\u7247/Gen4 PCIe 4.0/(\u706b\u68ad\u9b5a)\u8b80:7300M/\u5beb:6900M, $7199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Seagate",
+        "capacity": "500GB",
+        "read_speed": "3600",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1290",
+        "original_info": "MSI \u5fae\u661f M450 500G/Gen4/\u8b80:3600M/\u5beb:3000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $1290 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Seagate",
+        "capacity": "1TB",
+        "read_speed": "3600",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "2290",
+        "original_info": "MSI \u5fae\u661f M450 1TB/Gen4/\u8b80:3600M/\u5beb:3000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $2290 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "500GB",
+        "read_speed": "4000",
+        "write_speed": "3600",
+        "warranty": "5",
+        "price": "1550",
+        "original_info": "WD \u85cd\u6a19 SN580 500GB/Gen4 PCIe 4.0/\u8b80:4000/\u5beb:3600/TLC\u3010\u4e94\u5e74\u3011, $1550 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "4150",
+        "write_speed": "4150",
+        "warranty": "5",
+        "price": "2480",
+        "original_info": "WD \u85cd\u6a19 SN580 1TB/Gen4 PCIe 4.0/\u8b80:4150/\u5beb:4150/TLC\u3010\u4e94\u5e74\u3011, $2550\u2198$2480 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "4150",
+        "write_speed": "4150",
+        "warranty": "5",
+        "price": "4280",
+        "original_info": "WD \u85cd\u6a19 SN580 2TB/Gen4 PCIe 4.0/\u8b80:4150/\u5beb:4150/TLC\u3010\u4e94\u5e74\u3011, $4550\u2198$4280 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "500GB",
+        "read_speed": "5000",
+        "write_speed": "4000",
+        "warranty": "5",
+        "price": "1550",
+        "original_info": "WD \u9ed1\u6a19 SN770 500GB/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:4000/TLC\u3010\u4e94\u5e74\u3011, $1550 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "5150",
+        "write_speed": "4900",
+        "warranty": "5",
+        "price": "2650",
+        "original_info": "WD \u9ed1\u6a19 SN770 1TB/Gen4 PCIe 4.0/\u8b80:5150/\u5beb:4900/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $2650 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "5150",
+        "write_speed": "4850",
+        "warranty": "5",
+        "price": "4650",
+        "original_info": "WD \u9ed1\u6a19 SN770 2TB/Gen4 PCIe 4.0/\u8b80:5150/\u5beb:4850/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $4650 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6300",
+        "warranty": "5",
+        "price": "2550",
+        "original_info": "WD \u9ed1\u6a19 SN850X 1TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6300/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u3011, $2900\u2198$2550 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6600",
+        "warranty": "5",
+        "price": "5150",
+        "original_info": "WD \u9ed1\u6a19 SN850X 2TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6600/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u3011, $5150 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6300",
+        "warranty": "0",
+        "price": "3450",
+        "original_info": "WD \u9ed1\u6a19 SN850X 1TB/\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6300/TLC/\u96fb\u7af6\u7d1a, $3450 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6600",
+        "warranty": "5",
+        "price": "5650",
+        "original_info": "WD \u9ed1\u6a19 SN850X 2TB/\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6600/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u4fdd\u3011, $5650 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "250GB",
+        "read_speed": "3000",
+        "write_speed": "1300",
+        "warranty": "3",
+        "price": "880",
+        "original_info": "\u91d1\u58eb\u9813 NV2 250G/Gen4 PCIe 4.0/\u8b80:3000/\u5beb:1300\u4e09\u5e74\u4fdd\u56fa, $880 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "2100",
+        "warranty": "3",
+        "price": "1180",
+        "original_info": "\u91d1\u58eb\u9813 NV2 500G/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2100\u4e09\u5e74\u4fdd\u56fa, $1180 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "2100",
+        "warranty": "3",
+        "price": "1750",
+        "original_info": "\u91d1\u58eb\u9813 NV2 1TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2100\u4e09\u5e74\u4fdd\u56fa, $1750 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "2800",
+        "warranty": "3",
+        "price": "3450",
+        "original_info": "\u91d1\u58eb\u9813 NV2 2TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2800\u4e09\u5e74\u4fdd\u56fa~\u52a0\u9001\u6ed1\u9f20\u588a~, $3450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "3500",
+        "write_speed": "2800",
+        "warranty": "3",
+        "price": "6990",
+        "original_info": "\u91d1\u58eb\u9813 NV2 4TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2800\u4e09\u5e74\u4fdd\u56fa~\u52a0\u9001\u6ed1\u9f20\u588a~, $6990 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "512GB",
+        "read_speed": "7000",
+        "write_speed": "3900",
+        "warranty": "0",
+        "price": "1850",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 512G/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:3900/TLC, $1850 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "2700",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 1TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:6000/TLC, $2700 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "4700",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 2TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $4700 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "7000",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "11000",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 4TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $11000 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "500GB",
+        "read_speed": "7300",
+        "write_speed": "3900",
+        "warranty": "0",
+        "price": "2050",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 500G/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:3900/TLC, $2050 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "3200",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 1TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6000/TLC, $3200 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "4900",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 2TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $4900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "7300",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "12000",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 4TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $12300\u2198$12000 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "500GB",
+        "read_speed": "4700",
+        "write_speed": "1900",
+        "warranty": "5",
+        "price": "1300",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 500G/Gen4 PCIe 4.0/\u8b80:4700M/\u5beb:1900M/QLC\u9846\u7c92/\u4e94\u5e74, $1300 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "3600",
+        "warranty": "5",
+        "price": "1999",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 1TB/Gen4 PCIe 4.0//\u8b80:5000M/\u5beb:3600M/QLC\u9846\u7c92/\u4e94\u5e74, $1999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "5",
+        "price": "3800",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 2TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4200M/QLC\u9846\u7c92/\u4e94\u5e74, $3800 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "5",
+        "price": "7199",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 4TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4200M/QLC\u9846\u7c92/\u4e94\u5e74, $7199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "500GB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "2250",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 500G/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $2250 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "2799",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 1TB/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $3400\u2198$2799 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "3600",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 1TB\u542b\u6563\u71b1\u7247/Gen4/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $3750\u2198$3600 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "5399",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 2TB\u542b\u6563\u71b1\u7247/Gen4/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $5399 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "6900",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "2599",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 500G/Gen4 PCIe 4.0/\u8b80:6900/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2599 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "2900",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 1TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2949\u2198$2900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "5100",
+        "warranty": "5",
+        "price": "4899",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 2TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5100/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $4899 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "3449",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 1TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3449 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "5100",
+        "warranty": "5",
+        "price": "5399",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 2TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5100/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $5399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "3549",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 1TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3549 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "5649",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 2TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $5649 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "4TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "12599",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 4TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $12599 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "4049",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 1TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $4049 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "6149",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 2TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $6149 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "4TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "13099",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 4TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $13099 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "KLEVV",
+        "capacity": "256GB",
+        "read_speed": "1950",
+        "write_speed": "1250",
+        "warranty": "5",
+        "price": "699",
+        "original_info": "KLEVV CRAS C710 256G/Gen3/\u8b80:1950M/\u5beb:1250M/TLC/SLC(\u4e94\u5e74), $699 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "KLEVV",
+        "capacity": "512GB",
+        "read_speed": "2050",
+        "write_speed": "1650",
+        "warranty": "5",
+        "price": "1099",
+        "original_info": "KLEVV CRAS C710 512G/Gen3/\u8b80:2050M/\u5beb:1650M/TLC/SLC(\u4e94\u5e74), $1099 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "2050",
+        "write_speed": "1650",
+        "warranty": "5",
+        "price": "1759",
+        "original_info": "KLEVV CRAS C710 1TB/Gen3/\u8b80:2050M/\u5beb:1650M/TLC/SLC(\u4e94\u5e74), $1759 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "256GB",
+        "read_speed": "2100",
+        "write_speed": "1000",
+        "warranty": "3",
+        "price": "699",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 256G/Gen3/\u8b80:2100M/\u5beb:1000M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "2400",
+        "write_speed": "1000",
+        "warranty": "3",
+        "price": "1099",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 512G/Gen3/\u8b80:2400M/\u5beb:1000M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $1099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "2400",
+        "write_speed": "1800",
+        "warranty": "3",
+        "price": "1699",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 1TB/Gen3/\u8b80:2400M/\u5beb:1800M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $1699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "3500",
+        "write_speed": "2300",
+        "warranty": "5",
+        "price": "1049",
+        "original_info": "\u5a01\u525b XPG SX8200Pro 512G/Gen3\u8b80:3500M\u5beb:2300M/SMI\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1049 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1799",
+        "original_info": "\u5a01\u525b XPG SX8200Pro 1T/Gen3\u8b80:3500M\u5beb:3000M/SMI\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1799 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "1449",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 500G/Gen3/\u8b80:3500/\u5beb:3200/DRAM\u5feb\u53d6(\u4e94\u5e74), $1449 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "2499",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 1TB/Gen3/\u8b80:3500/\u5beb:3200/DRAM\u5feb\u53d6(\u4e94\u5e74), $2499 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3100",
+        "warranty": "5",
+        "price": "4450",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 2TB/Gen3/\u8b80:3500/\u5beb:3100/DRAM\u5feb\u53d6(\u4e94\u5e74), $4450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6280\u5609",
+        "capacity": "500GB",
+        "read_speed": "2300",
+        "write_speed": "1500",
+        "warranty": "3",
+        "price": "990",
+        "original_info": "\u6280\u5609 Gen3 2500E 500G/\u8b80:2300M/\u5beb:1500M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd, $1300\u2198$990 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u6280\u5609",
+        "capacity": "1TB",
+        "read_speed": "2400",
+        "write_speed": "1800",
+        "warranty": "3",
+        "price": "1990",
+        "original_info": "\u6280\u5609 Gen3 2500E 1TB/\u8b80:2400M/\u5beb:1800M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd, $1990 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1900",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 1TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $1900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "3700",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 2TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $3700 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "7099",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 4TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $7099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "2379",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 500G/Gen3/\u8b80:3500/\u5beb:3200/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2379 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3300",
+        "warranty": "5",
+        "price": "3899",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 1TB//Gen3/\u8b80:3500/\u5beb:3300/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3899 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3300",
+        "warranty": "5",
+        "price": "6899",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 2TB/Gen3/\u8b80:3500/\u5beb:3300/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $6899 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "2600",
+        "warranty": "5",
+        "price": "1899",
+        "original_info": "\u4e09\u661f Samsung 980 500G/Gen3/\u8b80:3500/\u5beb:2600/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $1899 \u25c6 \u2605"
+    },
+    {
+        "type": "2.5\u540b SATA3",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "2499",
+        "original_info": "\u4e09\u661f Samsung 980 1TB/Gen3/\u8b80:3500/\u5beb:3000/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2499 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "11700",
+        "write_speed": "9500",
+        "warranty": "5",
+        "price": "5650",
+        "original_info": "\u5341\u9293 T-ForceZ540\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)1TB/Gen5 PCIe 5.0/\u8b80:11700M/\u5beb:9500M(\u4e94\u5e74\u4fdd), $5650 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "10500",
+        "original_info": "\u5341\u9293 T-ForceZ540\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)2TB/Gen5 PCIe 5.0/\u8b80:12400M/\u5beb:11800M(\u4e94\u5e74\u4fdd), $10500 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Seagate",
+        "capacity": "2TB",
+        "read_speed": "10000",
+        "write_speed": "10000",
+        "warranty": "5",
+        "price": "9888",
+        "original_info": "Seagate FireCuda 540 2TB/Gen5 PCIe 5.0/(\u706b\u68ad\u9b5a)\u8b80:10000/\u5beb:10000/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $9888 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "11700",
+        "write_speed": "9500",
+        "warranty": "5",
+        "price": "5588",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 1TB Gen5 PCIe 5.0 \u8b80:11700/\u5beb:9500/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $5588 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "9350",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 2TB Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $9350 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "18000",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 4TB Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $18500\u2198$18000 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "11700",
+        "write_speed": "9500",
+        "warranty": "5",
+        "price": "6100",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 1TB\u542b\u6563\u71b1\u7247 Gen5 PCIe 5.0 \u8b80:11700/\u5beb:9500/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $6100 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "11000",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 2TB\u542b\u6563\u71b1\u7247 Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $11000 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "19000",
+        "original_info": "\u7f8e\u5149 Micron Crucial T700 4TB\u542b\u6563\u71b1\u7247 Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $20700\u2198$19000 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6280\u5609",
+        "capacity": "1TB",
+        "read_speed": "11700",
+        "write_speed": "9500",
+        "warranty": "5",
+        "price": "5990",
+        "original_info": "\u6280\u5609 AORUS Gen5 12000 SSD 1TB \u9802\u7d1a\u6548\u80fdPCIe 5.0 \u8b80:11700/\u5beb:9500/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $5990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6280\u5609",
+        "capacity": "2TB",
+        "read_speed": "12400",
+        "write_speed": "11800",
+        "warranty": "5",
+        "price": "9490",
+        "original_info": "\u5fae\u661f SPATIUM M570 PRO FROZR 2TB Gen5 PCIe 5.0 \u8b80:12400/\u5beb:11800/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $9490 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "0",
+        "price": "3739",
+        "original_info": "\u4e09\u661f Samsung 990 EVO 1TB/PCIe 4.0 x4/5.0 x2/\u8b80:5000/\u5beb:4200~\u9001128G\u8a18\u61b6\u5361&\u5496\u5561\u5238~, $3739 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "0",
+        "price": "6289",
+        "original_info": "\u4e09\u661f Samsung 990 EVO 2TB/PCIe 4.0 x4/5.0 x2/\u8b80:5000/\u5beb:4200~\u9001128G\u8a18\u61b6\u5361&\u5496\u5561\u5238~, $6289 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "UMAX",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "2100",
+        "original_info": "UMAX M1300 1TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $2100 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "UMAX",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2450",
+        "original_info": "UMAX M1500 1TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:5500M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $2450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "UMAX",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6850",
+        "warranty": "5",
+        "price": "4500",
+        "original_info": "UMAX M1500 2TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6850M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $4500 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "UMAX",
+        "capacity": "4TB",
+        "read_speed": "7200",
+        "write_speed": "6850",
+        "warranty": "5",
+        "price": "8500",
+        "original_info": "UMAX M1500 4TB/Gen4 PCIe 4.0/\u8b80:7200M/\u5beb:6850M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $8500 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "500GB",
+        "read_speed": "7000",
+        "write_speed": "4700",
+        "warranty": "5",
+        "price": "1699",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 500G/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:4700/DRAM\u5feb\u53d6(\u4e94\u5e74), $1699 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2999",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 1TB/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:6500/DRAM\u5feb\u53d6(\u4e94\u5e74), $2999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "4999",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 2TB/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:6500/DRAM\u5feb\u53d6(\u4e94\u5e74), $4999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "KLEVV",
+        "capacity": "500GB",
+        "read_speed": "5000",
+        "write_speed": "3700",
+        "warranty": "5",
+        "price": "1399",
+        "original_info": "KLEVV CRAS C910 500G/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:3700/TLC\u3010\u4e94\u5e74\u3011\u8f15\u8584\u92c1\u6563\u71b1\u7247, $1399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4800",
+        "warranty": "5",
+        "price": "1999",
+        "original_info": "KLEVV CRAS C910 1TB/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:4800/TLC\u3010\u4e94\u5e74\u3011\u8f15\u8584\u92c1\u6563\u71b1\u7247, $1999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6400",
+        "warranty": "0",
+        "price": "2499",
+        "original_info": "KLEVV CRAS C930 1TB/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:6400M DRAM\u5feb\u53d6/\u9c2d\u72c0\u92c1\u6563\u71b1\u7247, $2499 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "5000",
+        "write_speed": "2700",
+        "warranty": "5",
+        "price": "1399",
+        "original_info": "\u5a01\u525b XPG S60 PRO 512G/Gen4/\u8b80:5000M/\u5beb:2700M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4500",
+        "warranty": "5",
+        "price": "2399",
+        "original_info": "\u5a01\u525b XPG S60 PRO 1TB/Gen4/\u8b80:5000M/\u5beb:4500M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4500",
+        "warranty": "5",
+        "price": "4199",
+        "original_info": "\u5a01\u525b XPG S60 PRO 2TB/Gen4/\u8b80:5000M/\u5beb:4500M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "7200",
+        "write_speed": "2600",
+        "warranty": "5",
+        "price": "1599",
+        "original_info": "\u5a01\u525b XPG S70BLADE 512G/Gen4/\u8b80:7200M/\u5beb:2600M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2599",
+        "original_info": "\u5a01\u525b XPG S70BLADE 1T/Gen4/\u8b80:7400M/\u5beb:5500M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6400",
+        "warranty": "5",
+        "price": "4479",
+        "original_info": "\u5a01\u525b XPG S70BLADE 2T/Gen4/\u8b80:7400M/\u5beb:6400M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4479 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6000",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5a01\u525b XPG S70PRO 1TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6000/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5a01\u525b XPG S70PRO 2TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4599 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "8999",
+        "original_info": "\u5a01\u525b XPG S70PRO 4TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $8999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6000",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5a01\u525b XPG S70PRO 1TB\u767d/Gen4/\u8b80:7400/\u5beb:6000/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5a01\u525b XPG S70PRO 2TB\u767d/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4599 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "8999",
+        "original_info": "\u5a01\u525b XPG S70PRO 4TB\u767d/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $8999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Solidigm",
+        "capacity": "1TB",
+        "read_speed": "4125",
+        "write_speed": "2950",
+        "warranty": "5",
+        "price": "1990",
+        "original_info": "Solidigm(\u539fINTEL) P41 Plus 1TB/Gen4 PCIe 4.0/\u8b80:4125M/\u5beb:2950M/\u4e94\u5e74, $1990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Solidigm",
+        "capacity": "2TB",
+        "read_speed": "4125",
+        "write_speed": "3325",
+        "warranty": "5",
+        "price": "3150",
+        "original_info": "Solidigm(\u539fINTEL) P41 Plus 2TB/Gen4 PCIe 4.0/\u8b80:4125M/\u5beb:3325M/\u4e94\u5e74, $3150 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Solidigm",
+        "capacity": "512GB",
+        "read_speed": "7000",
+        "write_speed": "4700",
+        "warranty": "5",
+        "price": "1650",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 512G/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:4700M/DRAM\u5feb\u53d6/\u4e94\u5e74, $1650 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Solidigm",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2880",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 1TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6500M/DRAM\u5feb\u53d6/\u4e94\u5e74, $2880 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Solidigm",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "5100",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 2TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6500M/DRAM\u5feb\u53d6/\u4e94\u5e74, $5100 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2399",
+        "original_info": "\u5341\u9293 TEAM MP44 1TB/Gen4/\u8b80:7400M/\u5beb:6500M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $2399 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "3899",
+        "original_info": "\u5341\u9293 TEAM MP44 2TB/Gen4/\u8b80:7400M/\u5beb:7000M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $3899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "8299",
+        "original_info": "\u5341\u9293 TEAM MP44 4TB/Gen4/\u8b80:7400M/\u5beb:6900M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $8299 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "8TB",
+        "read_speed": "7200",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "26888",
+        "original_info": "\u5341\u9293 TEAM MP44 8TB/Gen4/\u8b80:7200M/\u5beb:6000M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64by order~, $26888 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "250GB",
+        "read_speed": "3300",
+        "write_speed": "1400",
+        "warranty": "5",
+        "price": "999",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)250G/Gen4 PCIe 4.0/\u8b80:3300M/\u5beb:1400M(\u4e94\u5e74), $999 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "500GB",
+        "read_speed": "3300",
+        "write_speed": "2400",
+        "warranty": "5",
+        "price": "1199",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)500G/Gen4 PCIe 4.0/\u8b80:3300M/\u5beb:2400M(\u4e94\u5e74), $1199 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1899",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)1TB/Gen4 PCIe 4.0/\u8b80:3500M/\u5beb:3000M(\u4e94\u5e74), $1899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "2099",
+        "original_info": "\u5341\u9293 T-ForceZ44A5\u6975\u9650\u96f6(\u77f3\u58a8\u70ef)1TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M(\u4e94\u5e74), $2099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "3699",
+        "original_info": "\u5341\u9293 T-ForceZ44A5\u6975\u9650\u96f6(\u77f3\u58a8\u70ef)2TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M(\u4e94\u5e74), $3699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5341\u9293 T-ForceA440\u9ed1\u66dc\u5973\u795e(\u96d9\u6563\u71b1)1TB/Gen4/\u8b80:7000M/\u5beb:5500M/DRAM\u5feb\u53d6(\u4e94\u5e74), $2699 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5341\u9293 T-ForceA440\u9ed1\u66dc\u5973\u795e(\u96d9\u6563\u71b1)2TB/Gen4/\u8b80:7000M/\u5beb:6900M/DRAM\u5feb\u53d6(\u4e94\u5e74), $4599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Seagate",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6900",
+        "warranty": "0",
+        "price": "7199",
+        "original_info": "Seagate FireCuda 530 2TB\u5149\u528d\u9650\u5b9a\u7248/\u6563\u71b1\u7247/Gen4 PCIe 4.0/(\u706b\u68ad\u9b5a)\u8b80:7300M/\u5beb:6900M, $7199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Seagate",
+        "capacity": "500GB",
+        "read_speed": "3600",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1290",
+        "original_info": "MSI \u5fae\u661f M450 500G/Gen4/\u8b80:3600M/\u5beb:3000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $1290 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Seagate",
+        "capacity": "1TB",
+        "read_speed": "3600",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "2290",
+        "original_info": "MSI \u5fae\u661f M450 1TB/Gen4/\u8b80:3600M/\u5beb:3000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $2290 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "500GB",
+        "read_speed": "4000",
+        "write_speed": "3600",
+        "warranty": "5",
+        "price": "1550",
+        "original_info": "WD \u85cd\u6a19 SN580 500GB/Gen4 PCIe 4.0/\u8b80:4000/\u5beb:3600/TLC\u3010\u4e94\u5e74\u3011, $1550 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "4150",
+        "write_speed": "4150",
+        "warranty": "5",
+        "price": "2480",
+        "original_info": "WD \u85cd\u6a19 SN580 1TB/Gen4 PCIe 4.0/\u8b80:4150/\u5beb:4150/TLC\u3010\u4e94\u5e74\u3011, $2550\u2198$2480 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "4150",
+        "write_speed": "4150",
+        "warranty": "5",
+        "price": "4280",
+        "original_info": "WD \u85cd\u6a19 SN580 2TB/Gen4 PCIe 4.0/\u8b80:4150/\u5beb:4150/TLC\u3010\u4e94\u5e74\u3011, $4550\u2198$4280 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "500GB",
+        "read_speed": "5000",
+        "write_speed": "4000",
+        "warranty": "5",
+        "price": "1550",
+        "original_info": "WD \u9ed1\u6a19 SN770 500GB/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:4000/TLC\u3010\u4e94\u5e74\u3011, $1550 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "5150",
+        "write_speed": "4900",
+        "warranty": "5",
+        "price": "2650",
+        "original_info": "WD \u9ed1\u6a19 SN770 1TB/Gen4 PCIe 4.0/\u8b80:5150/\u5beb:4900/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $2650 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "5150",
+        "write_speed": "4850",
+        "warranty": "5",
+        "price": "4650",
+        "original_info": "WD \u9ed1\u6a19 SN770 2TB/Gen4 PCIe 4.0/\u8b80:5150/\u5beb:4850/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $4650 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6300",
+        "warranty": "5",
+        "price": "2550",
+        "original_info": "WD \u9ed1\u6a19 SN850X 1TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6300/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u3011, $2900\u2198$2550 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6600",
+        "warranty": "5",
+        "price": "5150",
+        "original_info": "WD \u9ed1\u6a19 SN850X 2TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6600/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u3011, $5150 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6300",
+        "warranty": "0",
+        "price": "3450",
+        "original_info": "WD \u9ed1\u6a19 SN850X 1TB/\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6300/TLC/\u96fb\u7af6\u7d1a, $3450 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6600",
+        "warranty": "5",
+        "price": "5650",
+        "original_info": "WD \u9ed1\u6a19 SN850X 2TB/\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6600/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u4fdd\u3011, $5650 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "250GB",
+        "read_speed": "3000",
+        "write_speed": "1300",
+        "warranty": "3",
+        "price": "880",
+        "original_info": "\u91d1\u58eb\u9813 NV2 250G/Gen4 PCIe 4.0/\u8b80:3000/\u5beb:1300\u4e09\u5e74\u4fdd\u56fa, $880 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "2100",
+        "warranty": "3",
+        "price": "1180",
+        "original_info": "\u91d1\u58eb\u9813 NV2 500G/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2100\u4e09\u5e74\u4fdd\u56fa, $1180 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "2100",
+        "warranty": "3",
+        "price": "1750",
+        "original_info": "\u91d1\u58eb\u9813 NV2 1TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2100\u4e09\u5e74\u4fdd\u56fa, $1750 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "2800",
+        "warranty": "3",
+        "price": "3450",
+        "original_info": "\u91d1\u58eb\u9813 NV2 2TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2800\u4e09\u5e74\u4fdd\u56fa~\u52a0\u9001\u6ed1\u9f20\u588a~, $3450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "3500",
+        "write_speed": "2800",
+        "warranty": "3",
+        "price": "6990",
+        "original_info": "\u91d1\u58eb\u9813 NV2 4TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2800\u4e09\u5e74\u4fdd\u56fa~\u52a0\u9001\u6ed1\u9f20\u588a~, $6990 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "512GB",
+        "read_speed": "7000",
+        "write_speed": "3900",
+        "warranty": "0",
+        "price": "1850",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 512G/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:3900/TLC, $1850 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "2700",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 1TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:6000/TLC, $2700 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "4700",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 2TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $4700 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "7000",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "11000",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 4TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $11000 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "500GB",
+        "read_speed": "7300",
+        "write_speed": "3900",
+        "warranty": "0",
+        "price": "2050",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 500G/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:3900/TLC, $2050 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "3200",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 1TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6000/TLC, $3200 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "4900",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 2TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $4900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "7300",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "12000",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 4TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $12300\u2198$12000 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "500GB",
+        "read_speed": "4700",
+        "write_speed": "1900",
+        "warranty": "5",
+        "price": "1300",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 500G/Gen4 PCIe 4.0/\u8b80:4700M/\u5beb:1900M/QLC\u9846\u7c92/\u4e94\u5e74, $1300 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "3600",
+        "warranty": "5",
+        "price": "1999",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 1TB/Gen4 PCIe 4.0//\u8b80:5000M/\u5beb:3600M/QLC\u9846\u7c92/\u4e94\u5e74, $1999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "5",
+        "price": "3800",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 2TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4200M/QLC\u9846\u7c92/\u4e94\u5e74, $3800 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "5",
+        "price": "7199",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 4TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4200M/QLC\u9846\u7c92/\u4e94\u5e74, $7199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "500GB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "2250",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 500G/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $2250 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "2799",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 1TB/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $3400\u2198$2799 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "3600",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 1TB\u542b\u6563\u71b1\u7247/Gen4/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $3750\u2198$3600 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "5399",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 2TB\u542b\u6563\u71b1\u7247/Gen4/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $5399 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "6900",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "2599",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 500G/Gen4 PCIe 4.0/\u8b80:6900/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "2900",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 1TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2949\u2198$2900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "5100",
+        "warranty": "5",
+        "price": "4899",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 2TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5100/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $4899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "3449",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 1TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3449 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "5100",
+        "warranty": "5",
+        "price": "5399",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 2TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5100/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $5399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "3549",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 1TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3549 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "5649",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 2TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $5649 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "4TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "12599",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 4TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $12599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "4049",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 1TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $4049 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "6149",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 2TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $6149 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "4TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "13099",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 4TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $13099 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "KLEVV",
+        "capacity": "256GB",
+        "read_speed": "1950",
+        "write_speed": "1250",
+        "warranty": "5",
+        "price": "699",
+        "original_info": "KLEVV CRAS C710 256G/Gen3/\u8b80:1950M/\u5beb:1250M/TLC/SLC(\u4e94\u5e74), $699 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "KLEVV",
+        "capacity": "512GB",
+        "read_speed": "2050",
+        "write_speed": "1650",
+        "warranty": "5",
+        "price": "1099",
+        "original_info": "KLEVV CRAS C710 512G/Gen3/\u8b80:2050M/\u5beb:1650M/TLC/SLC(\u4e94\u5e74), $1099 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "2050",
+        "write_speed": "1650",
+        "warranty": "5",
+        "price": "1759",
+        "original_info": "KLEVV CRAS C710 1TB/Gen3/\u8b80:2050M/\u5beb:1650M/TLC/SLC(\u4e94\u5e74), $1759 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "256GB",
+        "read_speed": "2100",
+        "write_speed": "1000",
+        "warranty": "3",
+        "price": "699",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 256G/Gen3/\u8b80:2100M/\u5beb:1000M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "2400",
+        "write_speed": "1000",
+        "warranty": "3",
+        "price": "1099",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 512G/Gen3/\u8b80:2400M/\u5beb:1000M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $1099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "2400",
+        "write_speed": "1800",
+        "warranty": "3",
+        "price": "1699",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 1TB/Gen3/\u8b80:2400M/\u5beb:1800M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $1699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "3500",
+        "write_speed": "2300",
+        "warranty": "5",
+        "price": "1049",
+        "original_info": "\u5a01\u525b XPG SX8200Pro 512G/Gen3\u8b80:3500M\u5beb:2300M/SMI\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1049 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1799",
+        "original_info": "\u5a01\u525b XPG SX8200Pro 1T/Gen3\u8b80:3500M\u5beb:3000M/SMI\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1799 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "1449",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 500G/Gen3/\u8b80:3500/\u5beb:3200/DRAM\u5feb\u53d6(\u4e94\u5e74), $1449 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "2499",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 1TB/Gen3/\u8b80:3500/\u5beb:3200/DRAM\u5feb\u53d6(\u4e94\u5e74), $2499 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3100",
+        "warranty": "5",
+        "price": "4450",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 2TB/Gen3/\u8b80:3500/\u5beb:3100/DRAM\u5feb\u53d6(\u4e94\u5e74), $4450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6280\u5609",
+        "capacity": "500GB",
+        "read_speed": "2300",
+        "write_speed": "1500",
+        "warranty": "3",
+        "price": "990",
+        "original_info": "\u6280\u5609 Gen3 2500E 500G/\u8b80:2300M/\u5beb:1500M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd, $1300\u2198$990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u6280\u5609",
+        "capacity": "1TB",
+        "read_speed": "2400",
+        "write_speed": "1800",
+        "warranty": "3",
+        "price": "1990",
+        "original_info": "\u6280\u5609 Gen3 2500E 1TB/\u8b80:2400M/\u5beb:1800M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd, $1990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1900",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 1TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $1900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "3700",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 2TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $3700 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "7099",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 4TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $7099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "2379",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 500G/Gen3/\u8b80:3500/\u5beb:3200/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2379 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3300",
+        "warranty": "5",
+        "price": "3899",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 1TB//Gen3/\u8b80:3500/\u5beb:3300/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3300",
+        "warranty": "5",
+        "price": "6899",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 2TB/Gen3/\u8b80:3500/\u5beb:3300/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $6899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "2600",
+        "warranty": "5",
+        "price": "1899",
+        "original_info": "\u4e09\u661f Samsung 980 500G/Gen3/\u8b80:3500/\u5beb:2600/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $1899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 5.0 (Gen5)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "2499",
+        "original_info": "\u4e09\u661f Samsung 980 1TB/Gen3/\u8b80:3500/\u5beb:3000/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2499 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "UMAX",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "2100",
+        "original_info": "UMAX M1300 1TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $2100 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "UMAX",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2450",
+        "original_info": "UMAX M1500 1TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:5500M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $2450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "UMAX",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6850",
+        "warranty": "5",
+        "price": "4500",
+        "original_info": "UMAX M1500 2TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6850M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $4500 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "UMAX",
+        "capacity": "4TB",
+        "read_speed": "7200",
+        "write_speed": "6850",
+        "warranty": "5",
+        "price": "8500",
+        "original_info": "UMAX M1500 4TB/Gen4 PCIe 4.0/\u8b80:7200M/\u5beb:6850M\u3010\u4e94\u5e74\u3011DRAM\u5feb\u53d6/\u9285\u7b94\u6563\u71b1\u7247, $8500 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "500GB",
+        "read_speed": "7000",
+        "write_speed": "4700",
+        "warranty": "5",
+        "price": "1699",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 500G/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:4700/DRAM\u5feb\u53d6(\u4e94\u5e74), $1699 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2999",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 1TB/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:6500/DRAM\u5feb\u53d6(\u4e94\u5e74), $2999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "4999",
+        "original_info": "SK \u6d77\u529b\u58eb Platinum P41 2TB/Gen4 PCIE 4.0/\u8b80:7000/\u5beb:6500/DRAM\u5feb\u53d6(\u4e94\u5e74), $4999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "KLEVV",
+        "capacity": "500GB",
+        "read_speed": "5000",
+        "write_speed": "3700",
+        "warranty": "5",
+        "price": "1399",
+        "original_info": "KLEVV CRAS C910 500G/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:3700/TLC\u3010\u4e94\u5e74\u3011\u8f15\u8584\u92c1\u6563\u71b1\u7247, $1399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4800",
+        "warranty": "5",
+        "price": "1999",
+        "original_info": "KLEVV CRAS C910 1TB/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:4800/TLC\u3010\u4e94\u5e74\u3011\u8f15\u8584\u92c1\u6563\u71b1\u7247, $1999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6400",
+        "warranty": "0",
+        "price": "2499",
+        "original_info": "KLEVV CRAS C930 1TB/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:6400M DRAM\u5feb\u53d6/\u9c2d\u72c0\u92c1\u6563\u71b1\u7247, $2499 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "5000",
+        "write_speed": "2700",
+        "warranty": "5",
+        "price": "1399",
+        "original_info": "\u5a01\u525b XPG S60 PRO 512G/Gen4/\u8b80:5000M/\u5beb:2700M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4500",
+        "warranty": "5",
+        "price": "2399",
+        "original_info": "\u5a01\u525b XPG S60 PRO 1TB/Gen4/\u8b80:5000M/\u5beb:4500M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4500",
+        "warranty": "5",
+        "price": "4199",
+        "original_info": "\u5a01\u525b XPG S60 PRO 2TB/Gen4/\u8b80:5000M/\u5beb:4500M/SMI\u4e3b\u63a7/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "7200",
+        "write_speed": "2600",
+        "warranty": "5",
+        "price": "1599",
+        "original_info": "\u5a01\u525b XPG S70BLADE 512G/Gen4/\u8b80:7200M/\u5beb:2600M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2599",
+        "original_info": "\u5a01\u525b XPG S70BLADE 1T/Gen4/\u8b80:7400M/\u5beb:5500M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6400",
+        "warranty": "5",
+        "price": "4479",
+        "original_info": "\u5a01\u525b XPG S70BLADE 2T/Gen4/\u8b80:7400M/\u5beb:6400M/ DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4479 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6000",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5a01\u525b XPG S70PRO 1TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6000/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5a01\u525b XPG S70PRO 2TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4599 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "8999",
+        "original_info": "\u5a01\u525b XPG S70PRO 4TB\u9ed1/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $8999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6000",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5a01\u525b XPG S70PRO 1TB\u767d/Gen4/\u8b80:7400/\u5beb:6000/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $2699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5a01\u525b XPG S70PRO 2TB\u767d/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $4599 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6800",
+        "warranty": "5",
+        "price": "8999",
+        "original_info": "\u5a01\u525b XPG S70PRO 4TB\u767d/Gen4/\u8b80:7400/\u5beb:6800/SMI\u4e3b\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $8999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Solidigm",
+        "capacity": "1TB",
+        "read_speed": "4125",
+        "write_speed": "2950",
+        "warranty": "5",
+        "price": "1990",
+        "original_info": "Solidigm(\u539fINTEL) P41 Plus 1TB/Gen4 PCIe 4.0/\u8b80:4125M/\u5beb:2950M/\u4e94\u5e74, $1990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Solidigm",
+        "capacity": "2TB",
+        "read_speed": "4125",
+        "write_speed": "3325",
+        "warranty": "5",
+        "price": "3150",
+        "original_info": "Solidigm(\u539fINTEL) P41 Plus 2TB/Gen4 PCIe 4.0/\u8b80:4125M/\u5beb:3325M/\u4e94\u5e74, $3150 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Solidigm",
+        "capacity": "512GB",
+        "read_speed": "7000",
+        "write_speed": "4700",
+        "warranty": "5",
+        "price": "1650",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 512G/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:4700M/DRAM\u5feb\u53d6/\u4e94\u5e74, $1650 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Solidigm",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2880",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 1TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6500M/DRAM\u5feb\u53d6/\u4e94\u5e74, $2880 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Solidigm",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "5100",
+        "original_info": "Solidigm(\u539fINTEL) P44 Pro 2TB/Gen4 PCIe 4.0/\u8b80:7000M/\u5beb:6500M/DRAM\u5feb\u53d6/\u4e94\u5e74, $5100 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "6500",
+        "warranty": "5",
+        "price": "2399",
+        "original_info": "\u5341\u9293 TEAM MP44 1TB/Gen4/\u8b80:7400M/\u5beb:6500M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $2399 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "3899",
+        "original_info": "\u5341\u9293 TEAM MP44 2TB/Gen4/\u8b80:7400M/\u5beb:7000M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $3899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "4TB",
+        "read_speed": "7400",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "8299",
+        "original_info": "\u5341\u9293 TEAM MP44 4TB/Gen4/\u8b80:7400M/\u5beb:6900M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64(\u4e94\u5e74), $8299 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "8TB",
+        "read_speed": "7200",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "26888",
+        "original_info": "\u5341\u9293 TEAM MP44 8TB/Gen4/\u8b80:7200M/\u5beb:6000M/TLC\u9846\u7c92/\u5177\u77f3\u58a8\u70ef\u6563\u71b1\u6a19\u7c64by order~, $26888 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "250GB",
+        "read_speed": "3300",
+        "write_speed": "1400",
+        "warranty": "5",
+        "price": "999",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)250G/Gen4 PCIe 4.0/\u8b80:3300M/\u5beb:1400M(\u4e94\u5e74), $999 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "500GB",
+        "read_speed": "3300",
+        "write_speed": "2400",
+        "warranty": "5",
+        "price": "1199",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)500G/Gen4 PCIe 4.0/\u8b80:3300M/\u5beb:2400M(\u4e94\u5e74), $1199 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1899",
+        "original_info": "\u5341\u9293 T-ForceZ44L\u9ed1\u6b66\u58eb(\u77f3\u58a8\u70ef)1TB/Gen4 PCIe 4.0/\u8b80:3500M/\u5beb:3000M(\u4e94\u5e74), $1899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "2099",
+        "original_info": "\u5341\u9293 T-ForceZ44A5\u6975\u9650\u96f6(\u77f3\u58a8\u70ef)1TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M(\u4e94\u5e74), $2099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4400",
+        "warranty": "5",
+        "price": "3699",
+        "original_info": "\u5341\u9293 T-ForceZ44A5\u6975\u9650\u96f6(\u77f3\u58a8\u70ef)2TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4400M(\u4e94\u5e74), $3699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5500",
+        "warranty": "5",
+        "price": "2699",
+        "original_info": "\u5341\u9293 T-ForceA440\u9ed1\u66dc\u5973\u795e(\u96d9\u6563\u71b1)1TB/Gen4/\u8b80:7000M/\u5beb:5500M/DRAM\u5feb\u53d6(\u4e94\u5e74), $2699 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5341\u9293",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "4599",
+        "original_info": "\u5341\u9293 T-ForceA440\u9ed1\u66dc\u5973\u795e(\u96d9\u6563\u71b1)2TB/Gen4/\u8b80:7000M/\u5beb:6900M/DRAM\u5feb\u53d6(\u4e94\u5e74), $4599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Seagate",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6900",
+        "warranty": "0",
+        "price": "7199",
+        "original_info": "Seagate FireCuda 530 2TB\u5149\u528d\u9650\u5b9a\u7248/\u6563\u71b1\u7247/Gen4 PCIe 4.0/(\u706b\u68ad\u9b5a)\u8b80:7300M/\u5beb:6900M, $7199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Seagate",
+        "capacity": "500GB",
+        "read_speed": "3600",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1290",
+        "original_info": "MSI \u5fae\u661f M450 500G/Gen4/\u8b80:3600M/\u5beb:3000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $1290 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Seagate",
+        "capacity": "1TB",
+        "read_speed": "3600",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "2290",
+        "original_info": "MSI \u5fae\u661f M450 1TB/Gen4/\u8b80:3600M/\u5beb:3000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $2290 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "500GB",
+        "read_speed": "4000",
+        "write_speed": "3600",
+        "warranty": "5",
+        "price": "1550",
+        "original_info": "WD \u85cd\u6a19 SN580 500GB/Gen4 PCIe 4.0/\u8b80:4000/\u5beb:3600/TLC\u3010\u4e94\u5e74\u3011, $1550 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "4150",
+        "write_speed": "4150",
+        "warranty": "5",
+        "price": "2480",
+        "original_info": "WD \u85cd\u6a19 SN580 1TB/Gen4 PCIe 4.0/\u8b80:4150/\u5beb:4150/TLC\u3010\u4e94\u5e74\u3011, $2550\u2198$2480 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "4150",
+        "write_speed": "4150",
+        "warranty": "5",
+        "price": "4280",
+        "original_info": "WD \u85cd\u6a19 SN580 2TB/Gen4 PCIe 4.0/\u8b80:4150/\u5beb:4150/TLC\u3010\u4e94\u5e74\u3011, $4550\u2198$4280 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "500GB",
+        "read_speed": "5000",
+        "write_speed": "4000",
+        "warranty": "5",
+        "price": "1550",
+        "original_info": "WD \u9ed1\u6a19 SN770 500GB/Gen4 PCIe 4.0/\u8b80:5000/\u5beb:4000/TLC\u3010\u4e94\u5e74\u3011, $1550 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "5150",
+        "write_speed": "4900",
+        "warranty": "5",
+        "price": "2650",
+        "original_info": "WD \u9ed1\u6a19 SN770 1TB/Gen4 PCIe 4.0/\u8b80:5150/\u5beb:4900/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $2650 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "5150",
+        "write_speed": "4850",
+        "warranty": "5",
+        "price": "4650",
+        "original_info": "WD \u9ed1\u6a19 SN770 2TB/Gen4 PCIe 4.0/\u8b80:5150/\u5beb:4850/TLC\u3010\u4e94\u5e74\u4fdd\u3011, $4650 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6300",
+        "warranty": "5",
+        "price": "2550",
+        "original_info": "WD \u9ed1\u6a19 SN850X 1TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6300/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u3011, $2900\u2198$2550 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6600",
+        "warranty": "5",
+        "price": "5150",
+        "original_info": "WD \u9ed1\u6a19 SN850X 2TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6600/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u3011, $5150 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6300",
+        "warranty": "0",
+        "price": "3450",
+        "original_info": "WD \u9ed1\u6a19 SN850X 1TB/\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6300/TLC/\u96fb\u7af6\u7d1a, $3450 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "WD",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "6600",
+        "warranty": "5",
+        "price": "5650",
+        "original_info": "WD \u9ed1\u6a19 SN850X 2TB/\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6600/TLC/\u96fb\u7af6\u7d1a\u3010\u4e94\u5e74\u4fdd\u3011, $5650 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "250GB",
+        "read_speed": "3000",
+        "write_speed": "1300",
+        "warranty": "3",
+        "price": "880",
+        "original_info": "\u91d1\u58eb\u9813 NV2 250G/Gen4 PCIe 4.0/\u8b80:3000/\u5beb:1300\u4e09\u5e74\u4fdd\u56fa, $880 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "2100",
+        "warranty": "3",
+        "price": "1180",
+        "original_info": "\u91d1\u58eb\u9813 NV2 500G/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2100\u4e09\u5e74\u4fdd\u56fa, $1180 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "2100",
+        "warranty": "3",
+        "price": "1750",
+        "original_info": "\u91d1\u58eb\u9813 NV2 1TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2100\u4e09\u5e74\u4fdd\u56fa, $1750 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "2800",
+        "warranty": "3",
+        "price": "3450",
+        "original_info": "\u91d1\u58eb\u9813 NV2 2TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2800\u4e09\u5e74\u4fdd\u56fa~\u52a0\u9001\u6ed1\u9f20\u588a~, $3450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "3500",
+        "write_speed": "2800",
+        "warranty": "3",
+        "price": "6990",
+        "original_info": "\u91d1\u58eb\u9813 NV2 4TB/Gen4 PCIe 4.0/\u8b80:3500/\u5beb:2800\u4e09\u5e74\u4fdd\u56fa~\u52a0\u9001\u6ed1\u9f20\u588a~, $6990 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "512GB",
+        "read_speed": "7000",
+        "write_speed": "3900",
+        "warranty": "0",
+        "price": "1850",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 512G/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:3900/TLC, $1850 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "2700",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 1TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:6000/TLC, $2700 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "4700",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 2TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $4700 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "7000",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "11000",
+        "original_info": "\u91d1\u58eb\u9813 KC3000 4TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $11000 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "500GB",
+        "read_speed": "7300",
+        "write_speed": "3900",
+        "warranty": "0",
+        "price": "2050",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 500G/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:3900/TLC, $2050 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "1TB",
+        "read_speed": "7300",
+        "write_speed": "6000",
+        "warranty": "0",
+        "price": "3200",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 1TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:6000/TLC, $3200 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "2TB",
+        "read_speed": "7300",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "4900",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 2TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $4900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u91d1\u58eb\u9813",
+        "capacity": "4TB",
+        "read_speed": "7300",
+        "write_speed": "7000",
+        "warranty": "0",
+        "price": "12000",
+        "original_info": "\u91d1\u58eb\u9813 FURY Renegade 4TB/Gen4 PCIe 4.0/\u8b80:7300/\u5beb:7000/TLC~\u52a0\u9001\u6ed1\u9f20\u588a~, $12300\u2198$12000 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "500GB",
+        "read_speed": "4700",
+        "write_speed": "1900",
+        "warranty": "5",
+        "price": "1300",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 500G/Gen4 PCIe 4.0/\u8b80:4700M/\u5beb:1900M/QLC\u9846\u7c92/\u4e94\u5e74, $1300 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "5000",
+        "write_speed": "3600",
+        "warranty": "5",
+        "price": "1999",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 1TB/Gen4 PCIe 4.0//\u8b80:5000M/\u5beb:3600M/QLC\u9846\u7c92/\u4e94\u5e74, $1999 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "5",
+        "price": "3800",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 2TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4200M/QLC\u9846\u7c92/\u4e94\u5e74, $3800 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "5000",
+        "write_speed": "4200",
+        "warranty": "5",
+        "price": "7199",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 Plus 4TB/Gen4 PCIe 4.0/\u8b80:5000M/\u5beb:4200M/QLC\u9846\u7c92/\u4e94\u5e74, $7199 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "500GB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "2250",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 500G/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $2250 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "2799",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 1TB/Gen4 PCIe 4.0/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $3400\u2198$2799 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "3600",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 1TB\u542b\u6563\u71b1\u7247/Gen4/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $3750\u2198$3600 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "7400",
+        "write_speed": "7000",
+        "warranty": "5",
+        "price": "5399",
+        "original_info": "\u7f8e\u5149Micron Crucial T500 2TB\u542b\u6563\u71b1\u7247/Gen4/\u8b80:7400M/\u5beb:7000M/3D TLC\u9846\u7c92/\u4e94\u5e74, $5399 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "6900",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "2599",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 500G/Gen4 PCIe 4.0/\u8b80:6900/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "2900",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 1TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2949\u2198$2900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "5100",
+        "warranty": "5",
+        "price": "4899",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 2TB/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5100/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $4899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7000",
+        "write_speed": "5000",
+        "warranty": "5",
+        "price": "3449",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 1TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5000/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3449 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7000",
+        "write_speed": "5100",
+        "warranty": "5",
+        "price": "5399",
+        "original_info": "\u4e09\u661f Samsung 980 PRO 2TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7000/\u5beb:5100/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $5399 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "3549",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 1TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3549 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "5649",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 2TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $5649 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "4TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "12599",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 4TB/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $12599 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "4049",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 1TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $4049 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "6149",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 2TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $6149 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "4TB",
+        "read_speed": "7450",
+        "write_speed": "6900",
+        "warranty": "5",
+        "price": "13099",
+        "original_info": "\u4e09\u661f Samsung 990 PRO 4TB\u542b\u6563\u71b1\u7247/Gen4 PCIe 4.0/\u8b80:7450/\u5beb:6900/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $13099 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "KLEVV",
+        "capacity": "256GB",
+        "read_speed": "1950",
+        "write_speed": "1250",
+        "warranty": "5",
+        "price": "699",
+        "original_info": "KLEVV CRAS C710 256G/Gen3/\u8b80:1950M/\u5beb:1250M/TLC/SLC(\u4e94\u5e74), $699 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "KLEVV",
+        "capacity": "512GB",
+        "read_speed": "2050",
+        "write_speed": "1650",
+        "warranty": "5",
+        "price": "1099",
+        "original_info": "KLEVV CRAS C710 512G/Gen3/\u8b80:2050M/\u5beb:1650M/TLC/SLC(\u4e94\u5e74), $1099 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "2050",
+        "write_speed": "1650",
+        "warranty": "5",
+        "price": "1759",
+        "original_info": "KLEVV CRAS C710 1TB/Gen3/\u8b80:2050M/\u5beb:1650M/TLC/SLC(\u4e94\u5e74), $1759 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "256GB",
+        "read_speed": "2100",
+        "write_speed": "1000",
+        "warranty": "3",
+        "price": "699",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 256G/Gen3/\u8b80:2100M/\u5beb:1000M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "2400",
+        "write_speed": "1000",
+        "warranty": "3",
+        "price": "1099",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 512G/Gen3/\u8b80:2400M/\u5beb:1000M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $1099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "2400",
+        "write_speed": "1800",
+        "warranty": "3",
+        "price": "1699",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 1TB/Gen3/\u8b80:2400M/\u5beb:1800M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $1699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "3500",
+        "write_speed": "2300",
+        "warranty": "5",
+        "price": "1049",
+        "original_info": "\u5a01\u525b XPG SX8200Pro 512G/Gen3\u8b80:3500M\u5beb:2300M/SMI\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1049 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1799",
+        "original_info": "\u5a01\u525b XPG SX8200Pro 1T/Gen3\u8b80:3500M\u5beb:3000M/SMI\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1799 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "1449",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 500G/Gen3/\u8b80:3500/\u5beb:3200/DRAM\u5feb\u53d6(\u4e94\u5e74), $1449 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "2499",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 1TB/Gen3/\u8b80:3500/\u5beb:3200/DRAM\u5feb\u53d6(\u4e94\u5e74), $2499 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3100",
+        "warranty": "5",
+        "price": "4450",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 2TB/Gen3/\u8b80:3500/\u5beb:3100/DRAM\u5feb\u53d6(\u4e94\u5e74), $4450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u6280\u5609",
+        "capacity": "500GB",
+        "read_speed": "2300",
+        "write_speed": "1500",
+        "warranty": "3",
+        "price": "990",
+        "original_info": "\u6280\u5609 Gen3 2500E 500G/\u8b80:2300M/\u5beb:1500M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd, $1300\u2198$990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u6280\u5609",
+        "capacity": "1TB",
+        "read_speed": "2400",
+        "write_speed": "1800",
+        "warranty": "3",
+        "price": "1990",
+        "original_info": "\u6280\u5609 Gen3 2500E 1TB/\u8b80:2400M/\u5beb:1800M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd, $1990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1900",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 1TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $1900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "3700",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 2TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $3700 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "7099",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 4TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $7099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "2379",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 500G/Gen3/\u8b80:3500/\u5beb:3200/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2379 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3300",
+        "warranty": "5",
+        "price": "3899",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 1TB//Gen3/\u8b80:3500/\u5beb:3300/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3300",
+        "warranty": "5",
+        "price": "6899",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 2TB/Gen3/\u8b80:3500/\u5beb:3300/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $6899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "2600",
+        "warranty": "5",
+        "price": "1899",
+        "original_info": "\u4e09\u661f Samsung 980 500G/Gen3/\u8b80:3500/\u5beb:2600/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $1899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 4.0 (Gen4)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "2499",
+        "original_info": "\u4e09\u661f Samsung 980 1TB/Gen3/\u8b80:3500/\u5beb:3000/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2499 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "KLEVV",
+        "capacity": "256GB",
+        "read_speed": "1950",
+        "write_speed": "1250",
+        "warranty": "5",
+        "price": "699",
+        "original_info": "KLEVV CRAS C710 256G/Gen3/\u8b80:1950M/\u5beb:1250M/TLC/SLC(\u4e94\u5e74), $699 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "KLEVV",
+        "capacity": "512GB",
+        "read_speed": "2050",
+        "write_speed": "1650",
+        "warranty": "5",
+        "price": "1099",
+        "original_info": "KLEVV CRAS C710 512G/Gen3/\u8b80:2050M/\u5beb:1650M/TLC/SLC(\u4e94\u5e74), $1099 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "KLEVV",
+        "capacity": "1TB",
+        "read_speed": "2050",
+        "write_speed": "1650",
+        "warranty": "5",
+        "price": "1759",
+        "original_info": "KLEVV CRAS C710 1TB/Gen3/\u8b80:2050M/\u5beb:1650M/TLC/SLC(\u4e94\u5e74), $1759 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u5a01\u525b",
+        "capacity": "256GB",
+        "read_speed": "2100",
+        "write_speed": "1000",
+        "warranty": "3",
+        "price": "699",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 256G/Gen3/\u8b80:2100M/\u5beb:1000M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "2400",
+        "write_speed": "1000",
+        "warranty": "3",
+        "price": "1099",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 512G/Gen3/\u8b80:2400M/\u5beb:1000M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $1099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "2400",
+        "write_speed": "1800",
+        "warranty": "3",
+        "price": "1699",
+        "original_info": "\u5a01\u525b ADATA LEGEND 710 1TB/Gen3/\u8b80:2400M/\u5beb:1800M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd/\u8d08\u6563\u71b1\u7247, $1699 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u5a01\u525b",
+        "capacity": "512GB",
+        "read_speed": "3500",
+        "write_speed": "2300",
+        "warranty": "5",
+        "price": "1049",
+        "original_info": "\u5a01\u525b XPG SX8200Pro 512G/Gen3\u8b80:3500M\u5beb:2300M/SMI\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1049 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u5a01\u525b",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1799",
+        "original_info": "\u5a01\u525b XPG SX8200Pro 1T/Gen3\u8b80:3500M\u5beb:3000M/SMI\u63a7/DRAM\u5feb\u53d6/\u4e94\u5e74/\u8d08\u6563\u71b1\u7247, $1799 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "1449",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 500G/Gen3/\u8b80:3500/\u5beb:3200/DRAM\u5feb\u53d6(\u4e94\u5e74), $1449 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "2499",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 1TB/Gen3/\u8b80:3500/\u5beb:3200/DRAM\u5feb\u53d6(\u4e94\u5e74), $2499 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u6d77\u529b\u58eb",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3100",
+        "warranty": "5",
+        "price": "4450",
+        "original_info": "SK \u6d77\u529b\u58eb Gold P31 2TB/Gen3/\u8b80:3500/\u5beb:3100/DRAM\u5feb\u53d6(\u4e94\u5e74), $4450 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u6280\u5609",
+        "capacity": "500GB",
+        "read_speed": "2300",
+        "write_speed": "1500",
+        "warranty": "3",
+        "price": "990",
+        "original_info": "\u6280\u5609 Gen3 2500E 500G/\u8b80:2300M/\u5beb:1500M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd, $1300\u2198$990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u6280\u5609",
+        "capacity": "1TB",
+        "read_speed": "2400",
+        "write_speed": "1800",
+        "warranty": "3",
+        "price": "1990",
+        "original_info": "\u6280\u5609 Gen3 2500E 1TB/\u8b80:2400M/\u5beb:1800M/QLC\u9846\u7c92/\u4e09\u5e74\u4fdd, $1990 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "1900",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 1TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $1900 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "3700",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 2TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $3700 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "\u7f8e\u5149",
+        "capacity": "4TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "7099",
+        "original_info": "\u7f8e\u5149Micron Crucial P3 4TB/Gen3/\u8b80:3500M/\u5beb:3000M/3D QLC\u9846\u7c92/\u4e94\u5e74, $7099 \u25c6 \u2605 \u71b1\u8ce3"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "3200",
+        "warranty": "5",
+        "price": "2379",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 500G/Gen3/\u8b80:3500/\u5beb:3200/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2379 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3300",
+        "warranty": "5",
+        "price": "3899",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 1TB//Gen3/\u8b80:3500/\u5beb:3300/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $3899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "Samsung",
+        "capacity": "2TB",
+        "read_speed": "3500",
+        "write_speed": "3300",
+        "warranty": "5",
+        "price": "6899",
+        "original_info": "\u4e09\u661f Samsung 970 EVO Plus 2TB/Gen3/\u8b80:3500/\u5beb:3300/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $6899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "Samsung",
+        "capacity": "500GB",
+        "read_speed": "3500",
+        "write_speed": "2600",
+        "warranty": "5",
+        "price": "1899",
+        "original_info": "\u4e09\u661f Samsung 980 500G/Gen3/\u8b80:3500/\u5beb:2600/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $1899 \u25c6 \u2605"
+    },
+    {
+        "type": "M.2 PCIe 3.0 (Gen3)",
+        "brand": "Samsung",
+        "capacity": "1TB",
+        "read_speed": "3500",
+        "write_speed": "3000",
+        "warranty": "5",
+        "price": "2499",
+        "original_info": "\u4e09\u661f Samsung 980 1TB/Gen3/\u8b80:3500/\u5beb:3000/TLC/\u4e94\u5e74\u4fdd*\u661f\u777f\u5947, $2499 \u25c6 \u2605"
+    }
+]
