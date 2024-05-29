@@ -108,3 +108,5 @@ def whoami_view(request):
     return JsonResponse({
         "username": request.user.username,
     })
+    
+    
