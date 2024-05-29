@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Layout } from "antd";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -17,7 +16,8 @@ const { Header, Sider, Content } = Layout;
 
 function App() {
   return (
-    <BrowserRouter basename="/static">
+    <BrowserRouter>
+      {/* <BrowserRouter basename="/static"> */}
       <Layout>
         <Sider className="sidebar" theme="light" collapsible>
           <Logo />
