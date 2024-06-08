@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
+import { useShoppingCart } from "../../contexts/shoppingCartContext";
 
 import "./Product.scss";
 
@@ -32,15 +33,6 @@ const TagInput = (props) => {
           value={cate}
           onChange={(e) => setCate(e.target.value)}
         >
-          {/* <option value="All">All</option>
-          <option value="Type">Type</option>
-          <option value="Brand">Brand</option>
-          <option value="DDR_GEN">DDR GEN</option>
-          <option value="Channel">Channel</option>
-          <option value="Capacity">Capacity</option>
-          <option value="Clock_Rate">Clock Rate</option>
-          <option value="Remark">Remark</option>
-          <option value="Price">Price</option> */}
           <option value="All" key="All">
             All
           </option>
@@ -76,25 +68,6 @@ const TagInput = (props) => {
 
 export default function Hhd() {
   const productCateTypeList = {
-    ram: [
-      "type",
-      "brand",
-      "ddr_gen",
-      "channel",
-      "capacity",
-      "clock_rate",
-      "remark",
-      "price",
-    ],
-    ssd: [
-      "type",
-      "brand",
-      "capacity",
-      "read_speed",
-      "write_speed",
-      "warranty",
-      "price",
-    ],
     Hhd: [
       "type",
       "brand",
@@ -107,9 +80,16 @@ export default function Hhd() {
       "price",
     ],
   };
+
   const [currentCate, setCurrentCate] = useState("Hhd");
   const [cateSearch, setcateSearch] = useState([]);
   const [search1Terms, setSearch1Terms] = useState([]);
+  const {
+    getItemQuantity,
+    increaseItemQuantity,
+    decreaseItemQuantity,
+    removeItem,
+  } = useShoppingCart();
 
   useEffect(() => {
     if (cateSearch.length !== 0) {

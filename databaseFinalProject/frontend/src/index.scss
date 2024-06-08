@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /* Reset default styles */
 * {
   margin: 0;
@@ -5,26 +7,23 @@
   box-sizing: border-box;
 }
 
-html{
-  font-size: 10px
+html {
+  font-size: 10px;
 }
 
-body{
+body {
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
   line-height: 1.7;
-  padding: 3rem;
-
+  // padding: 3rem;
+  // background: url("./assets/background.jpg") no-repeat;
 }
 
-.sidebar{
+.sidebar {
   color: #fff;
-  
 }
 
-.content{
+.content {
   background-color: #fff;
-  padding: 0 5rem;
+  // margin: 0 5rem;
 }
-
-
-

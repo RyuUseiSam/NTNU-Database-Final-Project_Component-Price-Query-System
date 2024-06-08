@@ -49,7 +49,7 @@ export default function MenuList() {
       <Menu.Item key="user" icon={<UserOutlined />}>
         User
       </Menu.Item>
-      <Menu.Item key="logout" icon={<LogoutOutlined />}>
+      <Menu.Item key="login" icon={<LogoutOutlined />}>
         Logout
       </Menu.Item>
     </Menu>

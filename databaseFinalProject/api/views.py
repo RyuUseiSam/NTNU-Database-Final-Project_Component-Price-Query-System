@@ -110,3 +110,18 @@ def whoami_view(request):
     })
     
     
+def test_view(request):
+    """
+    A test view to check if the server is running.
+
+    Args:
+        request (HttpRequest): The HTTP request object containing metadata about the request.
+
+    Returns:
+        JsonResponse: A JSON response with the message "Server is running".
+    """
+    return JsonResponse({
+        "message": "Server is running",
+    })
+    
+    

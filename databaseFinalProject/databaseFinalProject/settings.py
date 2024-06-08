@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import pymysql
+
+# Install MySQLdb
+pymysql.install_as_MySQLdb()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -75,10 +79,21 @@ WSGI_APPLICATION = 'databaseFinalProject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'team13',  #資料庫名稱
+        'USER': 'team13',  #資料庫帳號
+        'PASSWORD': 'VvCUAh]4FTD!O4D_',  #資料庫密碼
+        'HOST': '140.122.184.129',  #Server(伺服器)位址
+        'PORT': '3310'  #PostgreSQL Port號
     }
 }
 
@@ -119,7 +134,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-# Default primary key field type
+# Default primary key field type    
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

@@ -1,52 +1,42 @@
 import React from "react";
+import Cookies from "universal-cookie";
+
+const cookies = new Cookies();
 
 export default function Testing() {
   const TestAPI = () => {
-    fetch("api/testAPI", {
-      // Sending a POST request
-      //
-    })
-      // Converting received data to JSON if the server returned data
-      .then((response) => response.json()) // it's optional, you can comment it, if you don't need to convert the response to JSON
-      .then((data) => console.log(data));
-  };
+    const csrftoken = cookies.get("csrftoken");
 
-  /*  ----------- EXAMPLE ------------ */
-  // const login = (event) => {
-  //   event.preventDefault();
-  //   fetch("/api/login/", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       "X-CSRFToken": cookies.get("csrftoken"), //CSRF token
-  //     },
-  //     credentials: "same-origin",
-  //     body: JSON.stringify({ username: 'admin', password: 'admin }),
-  //   })
-  //     .then(isResponseOk)
-  //     .then((data) => {
-  //       console.log(data);
-  //       setisAuthenticated(true);
-  //       setUsername("");
-  //       setPassword("");
-  //       setError("");
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //       setError("Invalid username or password");
-  //     });
-  // };
+    if (!csrftoken) {
+      console.error("CSRF token not found");
+      return;
+    }
+
+    fetch("/api/test/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-CSRFToken": csrftoken, // CSRF token
+      },
+      credentials: "same-origin",
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok " + response.statusText);
+        }
+        return response.json();
+      })
+      .then((data) => console.log(data))
+      .catch((error) =>
+        console.error("There was a problem with the fetch operation:", error)
+      );
+  };
 
   return (
     <div>
       <button className="testing" onClick={TestAPI}>
         Testing
       </button>
-
-      {/* EXAMPLE */}
-      {/* <button className="login" onClick={login}>
-        Login
-      </button> */}
     </div>
   );
 }
