@@ -1,6 +1,5 @@
-import React from "react";
-import { useContext, createContext, useState, ReactNode } from "react";
-
+import React, { useContext, createContext, useState, useEffect } from "react";
+import ShoppingCart from '../components/ShoppingCart/ShoppingCart';
 
 type ShoppingCartProviderProps = {
     children: React.ReactNode;
@@ -9,75 +8,95 @@ type ShoppingCartProviderProps = {
 type CartItemType = {
     id: number;
     quantity: number;
-}
+};
 
-type ShoppingCartContextTpye = {
+type ShoppingCartContextType = {
+    openCart: () => void;
+    closeCart: () => void;
     getItemQuantity: (id: number) => number;
     increaseItemQuantity: (id: number) => void;
     decreaseItemQuantity: (id: number) => void;
     removeItem: (id: number) => void;
-}
+    cartItems: CartItemType[];
+    cartQuantity: number;
+};
 
-const ShoppingCartContext = createContext({} as ShoppingCartContextTpye);
-
-
+const ShoppingCartContext = createContext({} as ShoppingCartContextType);
 
 export function useShoppingCart() {
     return useContext(ShoppingCartContext);
 }
 
-
-
 export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
+    const [isOpen, setIsOpen] = useState(false);
     const [cartItems, setCartItems] = useState<CartItemType[]>([]);
+    const [cartQuantity, setCartQuantity] = useState(0);
+
+    useEffect(() => {
+        const quantity = cartItems.reduce((acc, item) => acc + item.quantity, 0);
+        setCartQuantity(quantity);
+    }, [cartItems]);
+
+    const openCart = () => setIsOpen(true);
+
+
+    const closeCart = () => setIsOpen(false);
 
     const getItemQuantity = (id: number) => {
         return cartItems.find((item) => item.id === id)?.quantity || 0;
-    }
+    };
 
     const increaseItemQuantity = (id: number) => {
         setCartItems((currItems) => {
             if (currItems.find((item) => item.id === id) == null) {
-                return [...currItems, { id, quantity: 1 }]
-            }
-            else {
+                return [...currItems, { id, quantity: 1 }];
+            } else {
                 return currItems.map((item) => {
                     if (item.id === id) {
-                        return { ...item, quantity: item.quantity + 1 }
-                    }
-                    else {
+                        return { ...item, quantity: item.quantity + 1 };
+                    } else {
                         return item;
                     }
-                })
+                });
             }
-        })
-    }
+        });
+    };
 
     const decreaseItemQuantity = (id: number) => {
         setCartItems((currItems) => {
             if (currItems.find((item) => item.id === id)?.quantity === 1) {
-                return currItems.filter((item) => item.id !== id)
-            }
-            else {
+                return currItems.filter((item) => item.id !== id);
+            } else {
                 return currItems.map((item) => {
                     if (item.id === id) {
-                        return { ...item, quantity: item.quantity - 1 }
-                    }
-                    else {
+                        return { ...item, quantity: item.quantity - 1 };
+                    } else {
                         return item;
                     }
-                })
+                });
             }
-        })
-    }
+        });
+    };
 
     const removeItem = (id: number) => {
-        setCartItems((currItems) => currItems.filter((item) => item.id !== id))
-    }
+        setCartItems((currItems) => currItems.filter((item) => item.id !== id));
+    };
 
     return (
-        <ShoppingCartContext.Provider value={{ getItemQuantity, increaseItemQuantity, decreaseItemQuantity, removeItem }}>
+        <ShoppingCartContext.Provider
+            value={{
+                openCart,
+                closeCart,
+                getItemQuantity,
+                increaseItemQuantity,
+                decreaseItemQuantity,
+                removeItem,
+                cartItems,
+                cartQuantity,
+            }}
+        >
             {children}
+            <ShoppingCart isOpen={isOpen} />
         </ShoppingCartContext.Provider>
     );
 }

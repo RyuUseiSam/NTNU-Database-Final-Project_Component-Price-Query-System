@@ -15,8 +15,6 @@ body {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   line-height: 1.7;
-  // padding: 3rem;
-  // background: url("./assets/background.jpg") no-repeat;
 }
 
 .sidebar {
@@ -26,4 +24,38 @@ body {
 .content {
   background-color: #fff;
   // margin: 0 5rem;
+}
+.fixed-button {
+  position: fixed;
+  font-size: 1.6rem;
+  top: 2.5rem;
+  right: 2rem;
+  color: #fda403;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.fixed-button .cart-quantity {
+  position: absolute;
+  width: 3rem;
+  top: -5px;
+  right: -10px;
+  background-color: #fda403;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 5px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.fixed-button:hover {
+  background-color: #fda403;
+  color: #fff;
+}
+
+.fixed-button:hover .cart-quantity {
+  background-color: red;
 }

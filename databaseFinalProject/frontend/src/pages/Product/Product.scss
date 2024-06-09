@@ -1,6 +1,10 @@
 .search-area {
   display: flex;
   justify-content: center;
+  overflow: hidden;
+  min-width: 40rem;
+  // padding-top: 3rem;
+  // padding: 3rem 3rem 0 3rem;
   .tagInput-area {
     display: flex;
     flex-direction: column;
@@ -66,18 +70,17 @@
   }
 }
 
-
-
 .product-table {
   min-width: 40rem;
   width: 100%;
   border-collapse: collapse;
   font-size: 1.5rem;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
   border-radius: 0.5rem 0.5rem 0 0;
   overflow: hidden;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.15);
   background-color: #ffffff;
+  // padding: 3rem 3rem 0 3rem;
 }
 
 .product-table__header tr {

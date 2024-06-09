@@ -3,10 +3,10 @@ import { useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { useShoppingCart } from "../../contexts/shoppingCartContext";
 
+import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
+
 import "./Product.scss";
 
-// import ramData from "../../assets/ram_info.json";
-// import ssdDate from "../assets/ssd_info.json";
 import HhdData from "../../assets/hdd_info.json";
 
 const TagInput = (props) => {
@@ -66,9 +66,9 @@ const TagInput = (props) => {
   );
 };
 
-export default function Hhd() {
+export default function Hdd() {
   const productCateTypeList = {
-    Hhd: [
+    Hdd: [
       "type",
       "brand",
       "series",
@@ -81,7 +81,7 @@ export default function Hhd() {
     ],
   };
 
-  const [currentCate, setCurrentCate] = useState("Hhd");
+  const [currentCate, setCurrentCate] = useState("Hdd");
   const [cateSearch, setcateSearch] = useState([]);
   const [search1Terms, setSearch1Terms] = useState([]);
   const {
@@ -103,7 +103,11 @@ export default function Hhd() {
   }, [cateSearch]);
 
   return (
-    <div>
+    <div
+      style={{
+        padding: "3rem 3rem 0 3rem",
+      }}
+    >
       <div className="search-area">
         <TagInput
           setSearch={setcateSearch}
@@ -113,59 +117,39 @@ export default function Hhd() {
       </div>
       <table className="product-table">
         <thead className="product-table__header">
+          {/* Header Of Table */}
           <tr>
             {productCateTypeList[currentCate].map((key) => (
-              <th key={key}>
+              <th
+                style={{
+                  textAlign: "center",
+                }}
+                key={key}
+              >
                 {key.charAt(0).toUpperCase() + key.slice(1).replace(/_/g, " ")}
               </th>
             ))}
+            <th
+              style={{
+                textAlign: "center",
+              }}
+              key={"addToCart"}
+            >
+              Add to Cart
+            </th>
           </tr>
         </thead>
         <tbody>
           {HhdData.filter((item) => {
-            // const lowerCaseItem = {
-            //   type: item.type.toLowerCase(),
-            //   brand: item.brand.toLowerCase(),
-            //   ddr_gen: item.ddr_gen.toLowerCase(),
-            //   channel: item.channel.toLowerCase(),
-            //   capacity: item.capacity.toLowerCase(),
-            //   clock_rate: item.clock_rate.toLowerCase(),
-            //   remark: item.remark.toLowerCase(),
-            //   price: item.price.toLowerCase(),
-            // };
             const lowerCaseItem = {};
             productCateTypeList[currentCate].forEach((key) => {
               lowerCaseItem[key] = item[key].toLowerCase();
             });
-            // return (
-            //   search1Terms.length === 0 ||
-            //   search1Terms.every(([category, term]) => {
-            //     if (category === "All") {
-            //       return Object.values(lowerCaseItem).some((value) =>
-            //         value.includes(term.toLowerCase())
-            //       );
-            //     } else {
-            //       const currentCategory = category.toLowerCase();
-            //       return lowerCaseItem[currentCategory].includes(
-            //         term.toLowerCase()
-            //       );
-            //     }
-            //   })
-            // );
+
             return (
               search1Terms.length === 0 ||
               search1Terms.every(([category, term]) => {
                 if (category === "All") {
-                  // return (
-                  //   lowerCaseItem.type.includes(term.toLowerCase()) ||
-                  //   lowerCaseItem.brand.includes(term.toLowerCase()) ||
-                  //   lowerCaseItem.ddr_gen.includes(term.toLowerCase()) ||
-                  //   lowerCaseItem.channel.includes(term.toLowerCase()) ||
-                  //   lowerCaseItem.capacity.includes(term.toLowerCase()) ||
-                  //   lowerCaseItem.clock_rate.includes(term.toLowerCase()) ||
-                  //   lowerCaseItem.remark.includes(term.toLowerCase()) ||
-                  //   lowerCaseItem.price.includes(term.toLowerCase())
-                  // );
                   return Object.values(lowerCaseItem).some((value) =>
                     value.includes(term.toLowerCase())
                   );
@@ -173,56 +157,24 @@ export default function Hhd() {
                   return lowerCaseItem[category.toLowerCase()].includes(
                     term.toLowerCase()
                   );
-                  // switch (category) {
-                  //   case "Type":
-                  //     return lowerCaseItem.type.includes(term.toLowerCase());
-                  //   case "Brand":
-                  //     return lowerCaseItem.brand.includes(term.toLowerCase());
-                  //   case "DDR GEN":
-                  //     return lowerCaseItem.ddr_gen.includes(
-                  //       term.toLowerCase()
-                  //     );
-                  //   case "Channel":
-                  //     return lowerCaseItem.channel.includes(
-                  //       term.toLowerCase()
-                  //     );
-                  //   case "Capacity":
-                  //     return lowerCaseItem.capacity.includes(
-                  //       term.toLowerCase()
-                  //     );
-                  //   case "Clock Rate":
-                  //     return lowerCaseItem.clock_rate.includes(
-                  //       term.toLowerCase()
-                  //     );
-                  //   case "Remark":
-                  //     return lowerCaseItem.remark.includes(
-                  //       term.toLowerCase()
-                  //     );
-                  //   case "Price":
-                  //     return lowerCaseItem.price.includes(term.toLowerCase());
-
-                  //   // 添加其他類別的判定條件
-                  //   default:
-                  //     return false;
-                  // }
                 }
               })
             );
           }).map((item) => (
-            // <tr key={item.id}>
-            //   <td>{item.type}</td>
-            //   <td>{item.brand}</td>
-            //   <td>{item.ddr_gen}</td>
-            //   <td>{item.channel}</td>
-            //   <td>{item.capacity}</td>
-            //   <td>{item.clock_rate}</td>
-            //   <td>{item.remark}</td>
-            //   <td>{item.price}</td>
-            // </tr>
             <tr key={uuidv4()}>
               {productCateTypeList[currentCate].map((key) => (
                 <td key={key}>{item[key]}</td>
               ))}
+              {/* Add to Chart Button */}
+              <td
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <AddToCartButton />
+              </td>
             </tr>
           ))}
         </tbody>

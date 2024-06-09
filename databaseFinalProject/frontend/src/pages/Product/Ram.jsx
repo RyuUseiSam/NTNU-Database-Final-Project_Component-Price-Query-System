@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
+import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
 import "./Product.scss";
 
 import RamData from "../../assets/ram_info.json";
@@ -95,7 +96,7 @@ export default function Ram() {
       "warranty",
       "price",
     ],
-    hhd: [
+    hdd: [
       "type",
       "brand",
       "series",
@@ -123,7 +124,11 @@ export default function Ram() {
   }, [cateSearch]);
 
   return (
-    <div>
+    <div
+      style={{
+        padding: "3rem 3rem 0 3rem",
+      }}
+    >
       <div className="search-area">
         <TagInput
           setSearch={setcateSearch}
@@ -139,6 +144,14 @@ export default function Ram() {
                 {key.charAt(0).toUpperCase() + key.slice(1).replace(/_/g, " ")}
               </th>
             ))}
+            <th
+              style={{
+                textAlign: "center",
+              }}
+              key={"addToCart"}
+            >
+              Add to Cart
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -243,6 +256,16 @@ export default function Ram() {
               {productCateTypeList[currentCate].map((key) => (
                 <td key={key}>{item[key]}</td>
               ))}
+              {/* Add to Chart Button */}
+              <td
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <AddToCartButton />
+              </td>
             </tr>
           ))}
         </tbody>

@@ -1,0 +1,55 @@
+.shoppingCart {
+  padding: 1rem;
+  width: 100%;
+
+  &__title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  &__listBar {
+    width: 100%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background-color: #fda403;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+  .checkoutButton {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem;
+    bottom: 20px;
+    z-index: 1000; // 確保按鈕在其他內容之上
+  }
+
+  .checkoutButton button {
+    width: 100%;
+
+    font-size: 2rem;
+    padding: 10px 20px; // 調整按鈕的填充
+    background-color: #007bff; // 設置按鈕背景色
+    color: white; // 設置按鈕文字顏色
+    border: none; // 移除按鈕邊框
+    border-radius: 5px; // 設置按鈕邊框半徑
+    cursor: pointer; // 添加指標顯示
+  }
+
+  .checkoutButton button:hover {
+    background-color: #0056b3; // 滑鼠懸停時更改按鈕背景色
+  }
+}

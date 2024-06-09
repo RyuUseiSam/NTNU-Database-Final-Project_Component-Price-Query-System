@@ -18,40 +18,70 @@ export default function MenuList() {
     navigate(`/${e.key}`);
   };
 
+  const menuItems = [
+    {
+      key: "home",
+      icon: <HomeOutlined />,
+      text: "Home",
+    },
+    {
+      key: "product-list",
+      icon: <SearchOutlined />,
+      text: "Product",
+      children: [
+        {
+          key: "ram",
+          text: "RAM",
+        },
+        {
+          key: "ssd",
+          text: "SSD",
+        },
+        {
+          key: "hdd",
+          text: "HHD",
+        },
+      ],
+    },
+    {
+      key: "testing",
+      icon: <SettingOutlined />,
+      text: "Testing",
+    },
+    {
+      key: "user",
+      icon: <UserOutlined />,
+      text: "User",
+    },
+    {
+      key: "login",
+      icon: <LogoutOutlined />,
+      text: "Logout",
+    },
+  ];
+
   return (
     <Menu
       theme="light"
       mode="inline"
       className="menu-bar"
       onClick={handleClick}
+      selectedKeys={[]}
+      defaultOpenKeys={["product-list"]}
     >
-      <Menu.Item key="" icon={<HomeOutlined />}>
-        Home
-      </Menu.Item>
-      <Menu.SubMenu
-        key="product-list"
-        icon={<SearchOutlined />}
-        title="Product"
-      >
-        <Menu.Item key="ram" title="RAM">
-          RAM
-        </Menu.Item>
-        <Menu.Item key="ssd" title="SSD">
-          SSD
-        </Menu.Item>
-        <Menu.Item key="hhd" title="HHD">
-          HHD
-        </Menu.Item>
-      </Menu.SubMenu>
-      <Menu.Item key="testing" icon={<SettingOutlined />}>
-        Testing
-      </Menu.Item>
-      <Menu.Item key="user" icon={<UserOutlined />}>
-        User
-      </Menu.Item>
-      <Menu.Item key="login" icon={<LogoutOutlined />}>
-        Logout
-      </Menu.Item>
+      {menuItems.map((item) =>
+        item.children ? (
+          <Menu.SubMenu key={item.key} icon={item.icon} title={item.text}>
+            {item.children.map((child) => (
+              <Menu.Item key={child.key}>{child.text}</Menu.Item>
+            ))}
+          </Menu.SubMenu>
+        ) : (
+          <Menu.Item key={item.key} icon={item.icon}>
+            {item.text}
+          </Menu.Item>
+        )
+      )}
     </Menu>
   );
 }
