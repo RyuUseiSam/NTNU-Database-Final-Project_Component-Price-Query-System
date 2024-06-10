@@ -39,7 +39,7 @@ export default function MenuList() {
         },
         {
           key: "hdd",
-          text: "HHD",
+          text: "HDD",
         },
       ],
     },

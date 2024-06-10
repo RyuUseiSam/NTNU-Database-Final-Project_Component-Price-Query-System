@@ -8,7 +8,6 @@ import ssdImg from '../../assets/images/ssd.png';
 import './CartItems.scss'
 
 
-
 const CartItems = ({ id, type, name, quantity, price }) => {
     const [cartQuantity, setCartQuantity] = React.useState(quantity);
     const img = type === 'ram' ? ramImg : type === 'hdd' ? hddImg : ssdImg;
