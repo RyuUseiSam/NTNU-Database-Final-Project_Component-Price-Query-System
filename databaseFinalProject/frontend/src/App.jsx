@@ -69,7 +69,8 @@ function AppContent() {
 function App() {
   return (
     <ShoppingCartProvider>
-      <BrowserRouter basename="/static">
+      <BrowserRouter>
+        {/* <BrowserRouter basename="/static"> */}
         <AppContent />
       </BrowserRouter>
     </ShoppingCartProvider>
