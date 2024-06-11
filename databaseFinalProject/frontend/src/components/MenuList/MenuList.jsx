@@ -16,7 +16,12 @@ export default function MenuList() {
   const navigate = useNavigate();
 
   const handleClick = (e) => {
-    navigate(`/${e.key}`);
+    if(e.key === "login"){
+      window.location.replace("http://127.0.0.1:8000/api/logout/");
+    }
+    else{
+      navigate(`/${e.key}`);
+    }
   };
 
   const menuItems = [
