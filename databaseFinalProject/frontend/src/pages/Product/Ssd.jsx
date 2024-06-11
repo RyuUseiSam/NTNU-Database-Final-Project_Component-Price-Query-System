@@ -5,9 +5,12 @@ import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
 
 import "./Product.scss";
 
-// import ramData from "../../assets/ram_info.json";
-import SsdData from "../../assets/ssd_info.json";
-// import HhdData from "../../assets/hdd_info.json";
+const getData = async () => {
+  let response = await fetch("http://127.0.0.1:8000/api/SSDdata/");
+  let Data = await response.json();
+  return Data;
+};
+let SsdData = await getData();
 
 const TagInput = (props) => {
   const [cate, setCate] = useState("All");
@@ -88,13 +91,14 @@ export default function Ssd() {
       "price",
     ],
     Ssd: [
-      "type",
+      "ssd_type",
       "brand",
       "capacity",
       "read_speed",
       "write_speed",
       "warranty",
       "price",
+      "left",
     ],
     Hdd: [
       "type",
@@ -173,7 +177,7 @@ export default function Ssd() {
             // };
             const lowerCaseItem = {};
             productCateTypeList[currentCate].forEach((key) => {
-              lowerCaseItem[key] = item[key].toLowerCase();
+              lowerCaseItem[key] = item[key].toString().toLowerCase();;
             });
             // return (
             //   search1Terms.length === 0 ||
@@ -269,7 +273,11 @@ export default function Ssd() {
                   alignItems: "center",
                 }}
               >
-                <AddToCartButton />
+                <form action="../api/add_to_cart/" role="form" method="post">
+                  <input type="text" name="ProductID" style={{display: 'none'}} value={item['product_id']} />
+                  <input type="text" name="page" style={{display: 'none'}} value="ssd" />
+                  <AddToCartButton />
+                </form>
               </td>
             </tr>
           ))}
