@@ -47,7 +47,6 @@ function AppContent() {
               <Route path="/hdd" element={<Hdd />} />
               <Route path="/order" element={<Order />} />
               <Route path="/testing" element={<Order />} />
-              <Route path="/login" element={<LoginForm />} />
             </Routes>
           </Content>
         </Layout>
