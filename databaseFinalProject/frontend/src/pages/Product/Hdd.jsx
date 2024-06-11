@@ -7,7 +7,12 @@ import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
 
 import "./Product.scss";
 
-import HhdData from "../../assets/hdd_info.json";
+const getData = async () => {
+  let response = await fetch("http://127.0.0.1:8000/api/HDDdata/");
+  let Data = await response.json();
+  return Data;
+};
+let HhdData = await getData();
 
 const TagInput = (props) => {
   const [cate, setCate] = useState("All");
@@ -69,7 +74,7 @@ const TagInput = (props) => {
 export default function Hdd() {
   const productCateTypeList = {
     Hdd: [
-      "type",
+      "hdd_type",
       "brand",
       "series",
       "capacity",
@@ -78,6 +83,7 @@ export default function Hdd() {
       "rpm",
       "warranty",
       "price",
+      "left",
     ],
   };
 
@@ -143,7 +149,7 @@ export default function Hdd() {
           {HhdData.filter((item) => {
             const lowerCaseItem = {};
             productCateTypeList[currentCate].forEach((key) => {
-              lowerCaseItem[key] = item[key].toLowerCase();
+              lowerCaseItem[key] = item[key];
             });
 
             return (
@@ -173,7 +179,11 @@ export default function Hdd() {
                   alignItems: "center",
                 }}
               >
-                <AddToCartButton />
+                <form action="../api/add_to_cart/" role="form" method="post">
+                  <input type="text" name="ProductID" style={{display: 'none'}} value={item['product_id']} />
+                  <input type="text" name="page" style={{display: 'none'}} value="hdd" />
+                  <AddToCartButton />
+                </form>
               </td>
             </tr>
           ))}
