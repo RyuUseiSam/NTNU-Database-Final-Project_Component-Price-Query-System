@@ -16,15 +16,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.shortcuts import render
-from django.urls import path, include
+from django.urls import path, include, re_path
 
 def index_view(request):
-    return render(request, 'dist/index.html')
+    return render(request, 'index.html')
 
-
+def login_view(request):
+    return render(request, 'index_login.html')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
     path('', index_view, name='index'),
+    path('login/', login_view, name='login'),
+    re_path(r'^.*$', index_view),
 ]
