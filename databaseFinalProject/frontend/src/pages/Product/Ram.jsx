@@ -5,9 +5,12 @@ import { v4 as uuidv4 } from "uuid";
 import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
 import "./Product.scss";
 
-import RamData from "../../assets/ram_info.json";
-// import ssdDate from "../assets/ssd_info.json";
-// import hhdData from "../assets/hdd_info.json";
+const getData = async () => {
+  let response = await fetch("http://127.0.0.1:8000/api/RAMdata/");
+  let Data = await response.json();
+  return Data;
+};
+let RamData = await getData();
 
 const TagInput = (props) => {
   const [cate, setCate] = useState("All");
@@ -78,7 +81,7 @@ const TagInput = (props) => {
 export default function Ram() {
   const productCateTypeList = {
     Ram: [
-      "type",
+      "ram_type",
       "brand",
       "ddr_gen",
       "channel",
@@ -86,6 +89,7 @@ export default function Ram() {
       "clock_rate",
       "remark",
       "price",
+      "left",
     ],
     ssd: [
       "type",
@@ -168,7 +172,7 @@ export default function Ram() {
             // };
             const lowerCaseItem = {};
             productCateTypeList[currentCate].forEach((key) => {
-              lowerCaseItem[key] = item[key].toLowerCase();
+              lowerCaseItem[key] = item[key].toString().toLowerCase();
             });
             // return (
             //   search1Terms.length === 0 ||
@@ -264,7 +268,11 @@ export default function Ram() {
                   alignItems: "center",
                 }}
               >
-                <AddToCartButton />
+                <form action="../api/add_to_cart/" role="form" method="post">
+                  <input type="text" name="ProductID" style={{display: 'none'}} value={item['product_id']} />
+                  <input type="text" name="page" style={{display: 'none'}} value="ram" />
+                  <AddToCartButton />
+                </form>
               </td>
             </tr>
           ))}
