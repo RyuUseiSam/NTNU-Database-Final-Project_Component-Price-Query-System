@@ -7,6 +7,7 @@ import {
   LogoutOutlined,
   SearchOutlined,
   SettingOutlined,
+  ShoppingCartOutlined
 } from "@ant-design/icons";
 
 import "./MenuList.scss";
@@ -44,8 +45,8 @@ export default function MenuList() {
       ],
     },
     {
-      key: "testing",
-      icon: <SettingOutlined />,
+      key: "order",
+      icon: <ShoppingCartOutlined />,
       text: "Order",
     },
     // {
