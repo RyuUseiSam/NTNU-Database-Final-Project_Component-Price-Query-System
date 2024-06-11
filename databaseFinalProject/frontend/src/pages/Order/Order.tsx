@@ -2,20 +2,24 @@ import React from 'react'
 import ShoppingCartTable from '../../components/ShoppingCartTable/ShoppingCartTable'
 
 type CartItemType = {
-    id: number;
-    type: string;
+    product_id: number;
+    product_type: string;
     name: string;
     quantity: number;
     price: number;
 };
 
+const getData = async () => {
+    let response = await fetch("http://127.0.0.1:8000/api/getPurchaseList/");
+    let Data = await response.json();
+    return Data;
+  };
+let Data = await getData();
+console.log(Data['Product']);
+
 const Order = () => {
     //For django, we need to send a request to the server to get the order history
-    const [cartItems, setCartItems] = React.useState<CartItemType[]>([
-        { id: 1, type: "hdd", name: 'Item 1', quantity: 1, price: 10 },
-        { id: 2, type: "ssd", name: 'Item 2', quantity: 2, price: 20 },
-        { id: 3, type: "ssd", name: 'Item 3', quantity: 3, price: 30 },
-    ]);
+    const [cartItems, setCartItems] = React.useState<CartItemType[]>(Data['Product']);
 
     return (
         <div
