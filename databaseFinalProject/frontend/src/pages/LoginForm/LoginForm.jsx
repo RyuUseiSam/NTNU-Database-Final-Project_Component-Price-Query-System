@@ -38,7 +38,9 @@ const Form = ({ isRegister, handleLogin, toggleForm }) => (
 // Logged In Component
 const LoggedIn = ({ username, handleLogout }) => (
   <div className="logged-in-message">
-    <h1>Already Logged In!</h1>
+    <h1>
+      Already Logged In !
+    </h1>
     <div className="login-wrapper__input-box">
       <input className="login-wrapper__user_info" type="text" placeholder="Username" value={username} disabled />
       <FaUser className="login-wrapper__icon" />

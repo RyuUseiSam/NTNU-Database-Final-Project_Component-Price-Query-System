@@ -43,10 +43,12 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     const closeCart = () => setIsOpen(false);
 
     const getItemQuantity = (id: number) => {
+        // For django, we need the code below and send a GET request to the server to get the cart
         return cartItems.find((item) => item.id === id)?.quantity || 0;
     };
 
     const increaseItemQuantity = (id: number) => {
+        // For django, we need the code below and send a POST request to the server to update the cart
         setCartItems((currItems) => {
             if (currItems.find((item) => item.id === id) == null) {
                 return [...currItems, { id, quantity: 1 }];
@@ -63,6 +65,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     };
 
     const decreaseItemQuantity = (id: number) => {
+        // For django, we need the code below and send a POST request to the server to update the cart
         setCartItems((currItems) => {
             if (currItems.find((item) => item.id === id)?.quantity === 1) {
                 return currItems.filter((item) => item.id !== id);
@@ -79,6 +82,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     };
 
     const removeItem = (id: number) => {
+        // For django, we need the code below and send a POST request to the server to update the cart
         setCartItems((currItems) => currItems.filter((item) => item.id !== id));
     };
 

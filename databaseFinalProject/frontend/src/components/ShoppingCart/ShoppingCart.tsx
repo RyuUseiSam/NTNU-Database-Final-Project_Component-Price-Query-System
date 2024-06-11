@@ -1,11 +1,8 @@
 import { Offcanvas, Stack } from 'react-bootstrap';
-
 import { FaShoppingCart } from "react-icons/fa";
-
 import React, { useState } from 'react'
 import { useShoppingCart } from '../../contexts/shoppingCartContext';
 import CartItems from '../CartItems/CartItems';
-
 import './ShoppingCart.scss'
 
 type ShoppingCartProps = {
@@ -35,11 +32,13 @@ export default function ShoppingCart({ isOpen }) {
         { id: 2, type: "ram", name: 'Item 2', quantity: 2, price: 20 },
         { id: 3, type: "ssd", name: 'Item 3', quantity: 3, price: 30 },
     ]);
+
+    const totalAmount = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
+
     return (
         <Offcanvas className='shoppingCart' show={isOpen} onHide={closeCart} placement='end'>
             <Offcanvas.Header closeButton>
                 <Offcanvas.Title>
-
                 </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
@@ -48,12 +47,10 @@ export default function ShoppingCart({ isOpen }) {
                     <div style={{
                         overflowY: 'auto',
                         height: 'calc(100vh - 196px)',
-
                     }}>
-
                         {cartItems.map((item) => (
                             <CartItems
-                                key={item.id}
+                                // key={item.id}
                                 id={item.id}
                                 type={item.type}
                                 name={item.name}
@@ -63,13 +60,12 @@ export default function ShoppingCart({ isOpen }) {
                         ))}
                     </div>
                     <div className='checkoutButton'>
-                        <button onClick={() => setCartItems([])}>Checkout</button>
+                        <button onClick={() => setCartItems([])}>
+                            Checkout <small>（Total: ${totalAmount.toFixed(2)}）</small>
+                        </button>
                     </div>
                 </Stack>
             </Offcanvas.Body>
-
-
-
         </Offcanvas>
-    )
+    );
 }

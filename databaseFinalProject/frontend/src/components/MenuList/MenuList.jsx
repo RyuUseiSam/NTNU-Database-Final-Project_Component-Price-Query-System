@@ -46,13 +46,13 @@ export default function MenuList() {
     {
       key: "testing",
       icon: <SettingOutlined />,
-      text: "Testing",
+      text: "Order",
     },
-    {
-      key: "user",
-      icon: <UserOutlined />,
-      text: "User",
-    },
+    // {
+    //   key: "order",
+    //   icon: <UserOutlined />,
+    //   text: "order",
+    // },
     {
       key: "login",
       icon: <LogoutOutlined />,

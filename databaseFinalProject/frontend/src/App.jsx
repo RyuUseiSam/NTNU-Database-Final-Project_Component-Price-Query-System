@@ -5,7 +5,6 @@ import { FaShoppingCart } from "react-icons/fa";
 
 import Logo from "./components/Logo/Logo";
 import MenuList from "./components/MenuList/MenuList";
-import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 
 import {
   ShoppingCartProvider,
@@ -13,10 +12,11 @@ import {
 } from "./contexts/shoppingCartContext";
 
 // Pages
+import Home from "./pages/Home/Home";
 import Ram from "./pages/Product/Ram";
 import Hdd from "./pages/Product/Hdd";
 import Ssd from "./pages/Product/Ssd";
-import Home from "./pages/Home/Home";
+import Order from "./pages/Order/Order";
 
 // Testing
 import Testing from "./pages/Testing";
@@ -45,7 +45,8 @@ function AppContent() {
               <Route path="/ram" element={<Ram />} />
               <Route path="/ssd" element={<Ssd />} />
               <Route path="/hdd" element={<Hdd />} />
-              <Route path="/testing" element={<Testing />} />
+              <Route path="/order" element={<Order />} />
+              <Route path="/testing" element={<Order />} />
               <Route path="/login" element={<LoginForm />} />
             </Routes>
           </Content>
@@ -70,6 +71,7 @@ function App() {
   return (
     <ShoppingCartProvider>
       <BrowserRouter>
+        {/* For Frontend Testing Mode */}
         {/* <BrowserRouter basename="/static"> */}
         <AppContent />
       </BrowserRouter>
