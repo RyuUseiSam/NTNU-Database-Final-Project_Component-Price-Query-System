@@ -10,7 +10,6 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
     <!-- Import Icon Library-->
     <link
       rel="stylesheet"
@@ -20,10 +19,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- add favicon -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script type="module">
+      import RefreshRuntime from 'http://localhost:5173/static/@react-refresh'
+      RefreshRuntime.injectIntoGlobalHook(window)
+      window.$RefreshReg$ = () => {}
+      window.$RefreshSig$ = () => (type) => type
+      window.__vite_plugin_react_preamble_installed__ = true
+  </script>
+    <script type="module" src="http://localhost:5173/static/src/main.jsx"></script>
     <title>Component Price Query System</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div id="root">
+      <h2>Loading...</h2>
+    </div>
   </body>
+  
 </html>
