@@ -80,7 +80,7 @@ export default function Hdd() {
       "capacity",
       "memory",
       "model",
-      "rpm",
+      "RPM",
       "warranty",
       "price",
       "left",
@@ -149,7 +149,7 @@ export default function Hdd() {
           {HhdData.filter((item) => {
             const lowerCaseItem = {};
             productCateTypeList[currentCate].forEach((key) => {
-              lowerCaseItem[key] = item[key];
+              lowerCaseItem[key] = item[key].toString().toLowerCase();
             });
 
             return (
