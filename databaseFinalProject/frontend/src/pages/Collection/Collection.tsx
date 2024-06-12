@@ -14,6 +14,9 @@ type CartItemType = {
 const Collectoin = () => {
     //For django, we need to send a request to the server to get the order history
     const [userCollections, setUserCollections] = useState([
+        // "Collection 1",
+        // "Collection 2",
+        // "Collection 3", For testing purposes
 
     ])
     const [cartItems, setCartItems] = React.useState<CartItemType[]>([
@@ -99,7 +102,7 @@ const Collectoin = () => {
                         ))}
                     </select>
                     <ShoppingCartTable
-                        changable={true}
+                        changable={false}
                         cartItems={cartItems}
                         setCartItems={setCartItems}
                         tableTitle='Collection'
