@@ -93,13 +93,15 @@ def submitAccount_view(request):
 
     try:
         if Users.objects.filter(user_name=username, password=password).exists():
-            return JsonResponse({"error": "User already exist"})
+            messages.warning(request, "User already exist")
+            return redirect("/login/")
         else:
             object = Users(user_id=maxid, user_name=username,password=password)
             object.save()
             return redirect('/login/')
     except ValueError:
-        return JsonResponse({"error" : ValueError})
+        messages.warning(request, "Fail to register account: ValueError")
+        return redirect("/login/")
 
 @require_POST
 def deleteAccount_view(request):
@@ -122,7 +124,8 @@ def deleteAccount_view(request):
         del request.session["is_login"]
         return rep
     except ValueError:
-        return JsonResponse({"error" : ValueError})
+        messages.warning(request, "Fail to delete account: ValueError")
+        return redirect("/login/")
 
 
 
@@ -164,9 +167,12 @@ def logout_view(request):
 
 @api_view(['GET'])
 def get_username(request):
-    userid = request.session["is_login"]
-    username = Users.objects.get(user_id = userid).user_name
-    return JsonResponse({"username": username})
+    try:
+        userid = request.session["is_login"]
+        username = Users.objects.get(user_id = userid).user_name
+        return JsonResponse({"username": username})
+    except:
+        return JsonResponse({"username": " "})
         
 @ensure_csrf_cookie
 def session_view(request):
@@ -274,70 +280,86 @@ def getPurchaseList(order, idx):
 
 def addPurchaseList_view(request):
     #缺 userid
-    userid = request.session["is_login"] #request.user.id #測試用
-    cart_product = Cart.objects.filter(user_id = userid)
-
     try:
-        maxid = Order.objects.latest('order_id').order_id + 1
-    except:
-        maxid = 0
-    amount = 0
-    for p in cart_product:
-        query = 'quantity' + str(p.product_id)
-        quantity = request.POST.get(query)
-        order_products = Order_Product(order_id = maxid, product_id = p.product_id, quantity = quantity)
-        order_products.save()
-        p = Product.objects.get(product_id = p.product_id)
-        amount += p.price*int(quantity)
-            
-    order = Order(order_id = maxid, user_id = userid, amount = amount, date_time = datetime.now(), submitted = False)
-    order.save()
+        userid = request.session["is_login"] #request.user.id #測試用
+        cart_product = Cart.objects.filter(user_id = userid)
 
-    return redirect("/order")
+        try:
+            maxid = Order.objects.latest('order_id').order_id + 1
+        except:
+            maxid = 0
+        amount = 0
+        for p in cart_product:
+            query = 'quantity' + str(p.product_id)
+            quantity = request.POST.get(query)
+            order_products = Order_Product(order_id = maxid, product_id = p.product_id, quantity = quantity)
+            order_products.save()
+            p = Product.objects.get(product_id = p.product_id)
+            amount += p.price*int(quantity)
+                
+        order = Order(order_id = maxid, user_id = userid, amount = amount, date_time = datetime.now(), submitted = False)
+        order.save()
+
+        return redirect("/order")
+    except:
+        messages.warning(request, "You need to log in first")
+        return redirect("/login/")
 
 @api_view(['GET'])
 def getPurchaseList_view(request):
-    userid = request.session["is_login"] 
     try:
-        order = Order.objects.get(user_id = userid, submitted = False)
-        order_list = getPurchaseList(order, 1)
-        return Response(order_list)
+        userid = request.session["is_login"] 
+        try:
+            order = Order.objects.get(user_id = userid, submitted = False)
+            order_list = getPurchaseList(order, 1)
+            return Response(order_list)
+        except:
+            return JsonResponse({"Total_Price": 0})
     except:
-        return JsonResponse({"Total_Price": 0})
+        messages.warning(request, "You need to log in first")
+        return redirect("/login/")
         
 def removePurchaseList_view(request):
     #缺 userid
-    userid = request.session["is_login"] 
-    checkout = request.POST.get('confirm')
+    try:
+        userid = request.session["is_login"] 
+        checkout = request.POST.get('confirm')
 
-    if checkout == "0":
-        order = Order.objects.get(user_id = userid, submitted = False)
-        p = Order_Product.objects.filter(order_id = order.order_id)
-        p.delete()
-        order.delete()
-    else:
-        order = Order.objects.get(user_id = userid, submitted = False)
-        order.submitted = True
-        order.date_time = datetime.now()
-        order.save()
-        order_product = Order_Product.objects.filter(order_id = order.order_id)
-        for i in order_product:
-            p = Product.objects.get(product_id = i.product_id)
-            p.left -= int(i.quantity)
-            p.save()
-    return redirect("/home")
+        if checkout == "0":
+            order = Order.objects.get(user_id = userid, submitted = False)
+            p = Order_Product.objects.filter(order_id = order.order_id)
+            p.delete()
+            order.delete()
+        else:
+            order = Order.objects.get(user_id = userid, submitted = False)
+            order.submitted = True
+            order.date_time = datetime.now()
+            order.save()
+            order_product = Order_Product.objects.filter(order_id = order.order_id)
+            for i in order_product:
+                p = Product.objects.get(product_id = i.product_id)
+                p.left -= int(i.quantity)
+                p.save()
+        return redirect("/home")
+    except:
+        messages.warning(request, "You need to log in first")
+        return redirect("/login/")
     
     
 @api_view(['GET'])
 def getOrderHistory_view(request):
-    userid = request.session["is_login"] 
-    order_history = []
-    orders = Order.objects.filter(user_id = userid, submitted = True)
-    if orders.count()==0:
-        return Response([{"Total_Price": 0}])
-    for order in range(len(orders)):
-        order_history.append(getPurchaseList(orders[order], order+1))
-    return Response(order_history)
+    try:
+        userid = request.session["is_login"] 
+        order_history = []
+        orders = Order.objects.filter(user_id = userid, submitted = True)
+        if orders.count()==0:
+            return Response([{"Total_Price": 0}])
+        for order in range(len(orders)):
+            order_history.append(getPurchaseList(orders[order], order+1))
+        return Response(order_history)
+    except:
+        messages.warning(request, "You need to log in first")
+        return redirect("/login/")
         
 
 def add_to_cart(request):
@@ -370,7 +392,8 @@ def add_to_cart(request):
             return redirect("/hdd")
 
     except KeyError:
-        return JsonResponse({"error": "Invalid data"})
+        messages.warning(request, "You need to log in first")
+        return redirect("/login/")
 
 
 def remove_from_cart(request):
@@ -389,15 +412,18 @@ def remove_from_cart(request):
         return redirect("/ram")
 
     except KeyError:
-        return JsonResponse({"error": "Invalid data"})
+        messages.warning(request, "You need to log in first")
+        return redirect("/login/")
 
 
 @api_view(["GET"])
 def get_cart(request):
     try:
-        user_id = request.session["is_login"] 
-        if not user_id:
-            return Response({"error": "User ID is required"})
+        try:
+            user_id = request.session["is_login"] 
+        except:
+            messages.warning(request, "You need to log in first")
+            return redirect("/login/")
 
         # Fetch cart items
         cart_items = Cart.objects.filter(user_id=user_id)
@@ -428,7 +454,11 @@ def get_cart(request):
 @api_view(["POST"])
 def create_collection(request):
     try:
-        user_id = request.session["is_login"] 
+        try:
+            user_id = request.session["is_login"] 
+        except:
+            messages.warning(request, "You need to log in first")
+            return redirect("/login/")
         collection_name = request.data["collection_name"]
         product_id = request.data.get("product_id")  # allow empty product_id
 
@@ -462,7 +492,11 @@ def create_collection(request):
 @api_view(["DELETE"])
 def delete_collection(request):
     try:
-        user_id = request.session["is_login"] 
+        try:
+            user_id = request.session["is_login"] 
+        except:
+            messages.warning(request, "You need to log in first")
+            return redirect("/login/")
         collection_name = request.data["collection_name"]
 
         # Check if collection exists
@@ -484,7 +518,11 @@ def delete_collection(request):
 @api_view(["POST"])
 def add_to_collection(request):
     try:
-        user_id = request.session["is_login"] 
+        try:
+            user_id = request.session["is_login"] 
+        except:
+            messages.warning(request, "You need to log in first")
+            return redirect("/login/") 
         collection_name = request.data["collection_name"]
         product_id = request.data["product_id"]
 
@@ -537,7 +575,11 @@ def remove_from_collection(request):
 @api_view(["GET"])
 def get_collection_products(request):
     try:
-        user_id = request.session["is_login"] 
+        try:
+            user_id = request.session["is_login"] 
+        except:
+            messages.warning(request, "You need to log in first")
+            return redirect("/login/")
         collection_name = request.query_params.get("collection_name")
 
         if not user_id or not collection_name:
