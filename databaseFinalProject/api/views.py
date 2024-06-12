@@ -98,6 +98,7 @@ def submitAccount_view(request):
         else:
             object = Users(user_id=maxid, user_name=username,password=password)
             object.save()
+            messages.warning(request, "Success!")
             return redirect('/login/')
     except ValueError:
         messages.warning(request, "Fail to register account: ValueError")
@@ -283,12 +284,19 @@ def addPurchaseList_view(request):
     try:
         userid = request.session["is_login"] #request.user.id #測試用
         cart_product = Cart.objects.filter(user_id = userid)
-
+        amount = 0
+        has_order_unchecked = 0
         try:
-            maxid = Order.objects.latest('order_id').order_id + 1
+            try:
+                existing_order = Order.objects.get(user_id = userid, submitted = False)
+                maxid = existing_order.order_id
+                amount = existing_order.amount
+                has_order_unchecked = 1
+            except:
+                maxid = Order.objects.latest('order_id').order_id + 1
         except:
             maxid = 0
-        amount = 0
+        
         for p in cart_product:
             query = 'quantity' + str(p.product_id)
             quantity = request.POST.get(query)
@@ -296,9 +304,13 @@ def addPurchaseList_view(request):
             order_products.save()
             p = Product.objects.get(product_id = p.product_id)
             amount += p.price*int(quantity)
-                
-        order = Order(order_id = maxid, user_id = userid, amount = amount, date_time = datetime.now(), submitted = False)
-        order.save()
+        if has_order_unchecked == 0:
+            order = Order(order_id = maxid, user_id = userid, amount = amount, date_time = datetime.now(), submitted = False)
+            order.save()
+        else:
+            existing_order.amount = amount
+            existing_order.date_time = datetime.now()
+            existing_order.save()
 
         return redirect("/order")
     except:
@@ -350,16 +362,16 @@ def removePurchaseList_view(request):
 def getOrderHistory_view(request):
     try:
         userid = request.session["is_login"] 
-        order_history = []
-        orders = Order.objects.filter(user_id = userid, submitted = True)
-        if orders.count()==0:
-            return Response([{"Total_Price": 0}])
-        for order in range(len(orders)):
-            order_history.append(getPurchaseList(orders[order], order+1))
-        return Response(order_history)
     except:
         messages.warning(request, "You need to log in first")
         return redirect("/login/")
+    order_history = []
+    orders = Order.objects.filter(user_id = userid, submitted = True)
+    if orders.count()==0:
+        return Response([{"Total_Price": 0}])
+    for order in range(len(orders)):
+        order_history.append(getPurchaseList(orders[order], order+1))
+    return Response(order_history)
         
 
 def add_to_cart(request):
