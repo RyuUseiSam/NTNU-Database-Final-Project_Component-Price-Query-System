@@ -10,6 +10,9 @@ const getData = async () => {
   return Data;
 };
 let Data = await getData();
+if(Data["username"] == " "){
+  window.location.replace("http://127.0.0.1:8000/login/");
+}
 
 const UserProfileCard = () => {
   const [userNames, setUserNames] = useState(Data["username"])
