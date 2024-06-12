@@ -3,9 +3,12 @@ import { useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
+import AddToCollectionButton from "../../components/AddToCollectionButton/AddToCollectionButton";
+
 import "./Product.scss";
 
 import RamData from "../../assets/ram_info.json";
+
 // import ssdDate from "../assets/ssd_info.json";
 // import hhdData from "../assets/hdd_info.json";
 
@@ -148,9 +151,9 @@ export default function Ram() {
               style={{
                 textAlign: "center",
               }}
-              key={"addToCart"}
+              key={"addToCollection"}
             >
-              Add to Cart
+              Add to <br /> Collection / Cart
             </th>
           </tr>
         </thead>
@@ -256,14 +259,28 @@ export default function Ram() {
               {productCateTypeList[currentCate].map((key) => (
                 <td key={key}>{item[key]}</td>
               ))}
-              {/* Add to Chart Button */}
-              <td
+              {/* Add to Collection Button */}
+              {/* <td
                 style={{
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
                 }}
               >
+                <AddToCollectionButton/>
+              </td> */}
+              {/* Add to Chart Button */}
+              <td
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <div style={{ marginBottom: "1rem" }}>
+                  <AddToCollectionButton />
+                </div>
                 <AddToCartButton />
               </td>
             </tr>

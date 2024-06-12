@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
+import AddToCollectionButton from "../../components/AddToCollectionButton/AddToCollectionButton";
 
 import "./Product.scss";
 
@@ -155,7 +156,7 @@ export default function Ssd() {
               }}
               key={"addToCart"}
             >
-              Add to Cart
+              Add to <br /> Collection / Cart
             </th>
           </tr>
         </thead>
@@ -265,10 +266,14 @@ export default function Ssd() {
               <td
                 style={{
                   display: "flex",
+                  flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
                 }}
               >
+                <div style={{ marginBottom: "1rem" }}>
+                  <AddToCollectionButton />
+                </div>
                 <AddToCartButton />
               </td>
             </tr>

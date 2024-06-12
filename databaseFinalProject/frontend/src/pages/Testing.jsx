@@ -12,7 +12,7 @@ export default function Testing() {
       return;
     }
 
-    fetch("/api/test/", {
+    fetch("/api/api_submitAccount/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

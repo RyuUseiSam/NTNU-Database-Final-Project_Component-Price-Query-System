@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 import { useShoppingCart } from "../../contexts/shoppingCartContext";
 
 import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
+import AddToCollectionButton from "../../components/AddToCollectionButton/AddToCollectionButton";
 
 import "./Product.scss";
 
@@ -135,7 +136,7 @@ export default function Hdd() {
               }}
               key={"addToCart"}
             >
-              Add to Cart
+              Add to <br /> Collection / Cart
             </th>
           </tr>
         </thead>
@@ -165,14 +166,19 @@ export default function Hdd() {
               {productCateTypeList[currentCate].map((key) => (
                 <td key={key}>{item[key]}</td>
               ))}
-              {/* Add to Chart Button */}
+
+              {/* Add to Chart and Collection Button */}
               <td
                 style={{
                   display: "flex",
+                  flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
                 }}
               >
+                <div style={{ marginBottom: "1rem" }}>
+                  <AddToCollectionButton />
+                </div>
                 <AddToCartButton />
               </td>
             </tr>

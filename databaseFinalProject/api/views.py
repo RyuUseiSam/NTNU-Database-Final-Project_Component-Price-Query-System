@@ -5,65 +5,108 @@ from django.contrib.auth import authenticate, login, logout
 from django.http import JsonResponse
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_POST
+from django.shortcuts import redirect
 
-@require_POST
+# Import Models
+from .models import Users
+
+
+
 def login_view(request):
-    """
-    Handles user login requests. This view expects a POST request with a JSON
-    body containing 'username' and 'password'. It authenticates the user and 
-    logs them in if the credentials are correct.
 
-    Args:
-        request (HttpRequest): The HTTP request object containing metadata about 
-        the request, including POST data.
-
-    Returns:
-        JsonResponse: A JSON response indicating the result of the login attempt.
-        - On success: {"detail": "Successfully logged in"} with a 200 status code.
-        - On failure: {"detail": "Invalid credentials"} or 
-            {"detail" : "Please provide both username and password"} with a 400 status code.
     """
+    check if the user exist
+    if user exist set login cookie to true
+    then redirect to home page
+    """
+    
     data = json.loads(request.body)
     username = data.get('username')
     password = data.get('password')
 
     if username is None or password is None:
-        return JsonResponse({
-            "detail" : "Please provide both username and password"
-            }, status=400)
+        return JsonResponse({"detail" : "Please provide both username and password"}, status=400)
     
-    user = authenticate(request, username=username, password=password)
-    if user is None:
-        return JsonResponse({
-            "detail": "Invalid credentials"
-            }, status=400)
+    if Users.objects.filter(user_name=username, password=password).exists():
+        rep = redirect("/")
+        rep.set_cookie("is_login", True)
+        return rep
+    else:
+        return JsonResponse({"detail": "Invalid credentials"}, status=400)
 
-    login(request, user)
-    return JsonResponse({"detail": "Successfully logged in"})
+
+
+# @require_POST
+# def login_view(request):
+#     """
+#     Handles user login requests. This view expects a POST request with a JSON
+#     body containing 'username' and 'password'. It authenticates the user and 
+#     logs them in if the credentials are correct.
+
+#     Args:
+#         request (HttpRequest): The HTTP request object containing metadata about 
+#         the request, including POST data.
+
+#     Returns:
+#         JsonResponse: A JSON response indicating the result of the login attempt.
+#         - On success: {"detail": "Successfully logged in"} with a 200 status code.
+#         - On failure: {"detail": "Invalid credentials"} or 
+#             {"detail" : "Please provide both username and password"} with a 400 status code.
+#     """
+#     data = json.loads(request.body)
+#     username = data.get('username')
+#     password = data.get('password')
+
+#     if username is None or password is None:
+#         return JsonResponse({
+#             "detail" : "Please provide both username and password"
+#             }, status=400)
+    
+#     user = authenticate(request, username=username, password=password)
+#     if user is None:
+#         return JsonResponse({
+#             "detail": "Invalid credentials"
+#             }, status=400)
+
+#     login(request, user)
+#     return JsonResponse({"detail": "Successfully logged in"})
 
 def logout_view(request):
-    """
-    Checks if the user is authenticated and returns a JSON response indicating the authentication status.
 
-    Args:
-        request (HttpRequest): The HTTP request object containing metadata about the request.
 
-    Returns:
-        JsonResponse: A JSON response with the user's authentication status.
-        - {"isauthenticated": False} if the user is not authenticated.
-        - {"isauthenticated": True} if the user is authenticated.
-    """
+    #  redirect to login page and set login cookie to false
 
-    if not request.user.is_authenticated:
-        return JsonResponse({
-            "detail": "You are not logged in!",
-        }, status=400)
+
+    if not 'is_login' in request.COOKIES:
+        return JsonResponse({"detail": "You are not logged in!"}, status=400)
+    
+    rep = redirect("login/")    
+    rep.delete_cookie("is_login")        
+    return rep
+
+# def logout_view(request):
+#     """
+#     Checks if the user is authenticated and returns a JSON response indicating the authentication status.
+
+#     Args:
+#         request (HttpRequest): The HTTP request object containing metadata about the request.
+
+#     Returns:
+#         JsonResponse: A JSON response with the user's authentication status.
+#         - {"isauthenticated": False} if the user is not authenticated.
+#         - {"isauthenticated": True} if the user is authenticated.
+#     """
+
+#     if not request.user.is_authenticated:
+#         return JsonResponse({
+#             "detail": "You are not logged in!",
+#         }, status=400)
         
-    logout(request)
+#     logout(request)
         
-    return JsonResponse({
-        "detail": "Successfully logged out!",
-    })
+#     return JsonResponse({
+#         "detail": "Successfully logged out!",
+#     })
     
         
 @ensure_csrf_cookie
@@ -110,18 +153,54 @@ def whoami_view(request):
     })
     
     
+
+    
+
+
+@require_POST
+def submitAccount_view(request):
+    """
+    check if the user already exists
+    if not subit username and password into database
+    user_id will be create automatically when the account is create
+    """
+    data = json.loads(request.body)
+    username = data['username']
+    password = data['password']
+
+    try:
+        if Users.objects.filter(user_name=username, password=password).exists():
+            return JsonResponse({"error": "User already exist"})
+        else:
+            object = Users(user_name=username,password=password)
+            object.save()
+            return JsonResponse({"message": "User submit successfully"})
+    except ValueError:
+        return JsonResponse({"error" : ValueError})
+
+@require_POST
+def deleteAccount_view(request):
+
+    """
+    delete account from database
+    then terminate login cookie and redirect to the login page
+    """
+
+    data = json.loads(request.body)
+    user_id = data['user_id']
+
+    try:
+        Users.objects.filter(user_id=user_id).delete()
+        rep = redirect("login/") #redirect to login page 
+        rep.delete_cookie("is_login")
+        return rep
+    except ValueError:
+        return JsonResponse({"error" : ValueError})
+
+
+
+
 def test_view(request):
-    """
-    A test view to check if the server is running.
-
-    Args:
-        request (HttpRequest): The HTTP request object containing metadata about the request.
-
-    Returns:
-        JsonResponse: A JSON response with the message "Server is running".
-    """
-    return JsonResponse({
-        "message": "Server is running",
-    })
     
     
+    return JsonResponse({"message": "testing view"})

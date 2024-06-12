@@ -7,8 +7,11 @@ import {
   LogoutOutlined,
   SearchOutlined,
   SettingOutlined,
-  ShoppingCartOutlined
+  ShoppingCartOutlined,
+  // MdOutlineCollectionsBookmark,
 } from "@ant-design/icons";
+
+import { MdOutlineCollectionsBookmark } from "react-icons/md";
 
 import "./MenuList.scss";
 
@@ -50,10 +53,15 @@ export default function MenuList() {
       text: "Order",
     },
     // {
-    //   key: "order",
+    //   key: "testing",
     //   icon: <UserOutlined />,
-    //   text: "order",
+    //   text: "Testing",
     // },
+    {
+      key: "collection",
+      icon: <MdOutlineCollectionsBookmark />,
+      text: "Collection",
+    },
     {
       key: "login",
       icon: <LogoutOutlined />,

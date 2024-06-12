@@ -17,6 +17,7 @@ import Ram from "./pages/Product/Ram";
 import Hdd from "./pages/Product/Hdd";
 import Ssd from "./pages/Product/Ssd";
 import Order from "./pages/Order/Order";
+import Collection from "./pages/Collection/Collection";
 
 // Testing
 import Testing from "./pages/Testing";
@@ -46,7 +47,8 @@ function AppContent() {
               <Route path="/ssd" element={<Ssd />} />
               <Route path="/hdd" element={<Hdd />} />
               <Route path="/order" element={<Order />} />
-              <Route path="/testing" element={<Order />} />
+              <Route path="/collection" element={<Collection />} />
+              <Route path="/testing" element={<Testing />} />
               <Route path="/login" element={<LoginForm />} />
             </Routes>
           </Content>
@@ -70,9 +72,9 @@ function AppContent() {
 function App() {
   return (
     <ShoppingCartProvider>
-      <BrowserRouter>
-        {/* For Frontend Testing Mode */}
-        {/* <BrowserRouter basename="/static"> */}
+      {/* <BrowserRouter> */}
+      {/* For Frontend Testing Mode */}
+      <BrowserRouter basename="/static">
         <AppContent />
       </BrowserRouter>
     </ShoppingCartProvider>

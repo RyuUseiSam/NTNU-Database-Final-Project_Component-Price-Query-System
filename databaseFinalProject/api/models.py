@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+import uuid
 
 class Users(models.Model):
     user_id = models.IntegerField('id', primary_key=True, null=False, default='')
@@ -89,3 +90,14 @@ class Order_Product(models.Model):
 
     def __str__(self):
         return self.order_id
+    
+
+class Users(models.Model):
+    user_id = models.UUIDField('id', primary_key=True, null=False, default=uuid.uuid4)
+    user_name = models.CharField('name', max_length=30, null=False, default='')
+    password = models.CharField('password', max_length=30, null=False, default='')
+
+    def __str__(self):
+        return self.user_name
+    
+

@@ -37,7 +37,12 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
         setCartQuantity(quantity);
     }, [cartItems]);
 
-    const openCart = () => setIsOpen(true);
+    const openCart = async () => {
+        // For django, we need the code below and send a GET request to the server to get the cart
+        await fetch
+        
+        setIsOpen(true)
+    };
 
 
     const closeCart = () => setIsOpen(false);

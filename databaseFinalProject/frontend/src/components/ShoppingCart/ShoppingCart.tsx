@@ -35,6 +35,8 @@ export default function ShoppingCart({ isOpen }) {
 
     const totalAmount = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 
+    
+
     return (
         <Offcanvas className='shoppingCart' show={isOpen} onHide={closeCart} placement='end'>
             <Offcanvas.Header closeButton>
