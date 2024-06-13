@@ -154,7 +154,7 @@ export default function Ram() {
               }}
               key={"addToCart"}
             >
-              Add to Cart
+              Add to <br /> Collection / Cart
             </th>
           </tr>
         </thead>
