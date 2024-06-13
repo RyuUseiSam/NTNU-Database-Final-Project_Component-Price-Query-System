@@ -41,7 +41,7 @@ const ShoppingCartTable = ({
     //const [cartItems, setCartItems] = React.useState<CartItemType[]>(Data['Product']);
 
     const getImg = (product_type: string) => {
-        return product_type === 'RAM' ? "http://localhost:5173/static/src/assets/images/ram.png" : product_type === 'HHD' ? "http://localhost:5173/static/src/assets/images/hdd.png" : "http://localhost:5173/static/src/assets/images/ssd.png";
+        return product_type === 'RAM' ? "http://localhost:5173/static/src/assets/images/ram.png" : product_type === 'HDD' ? "http://localhost:5173/static/src/assets/images/hdd.png" : "http://localhost:5173/static/src/assets/images/ssd.png";
     }
 
     const handleDelete = (id: number) => {
