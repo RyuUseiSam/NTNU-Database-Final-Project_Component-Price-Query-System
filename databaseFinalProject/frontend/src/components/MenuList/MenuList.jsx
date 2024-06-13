@@ -10,6 +10,8 @@ import {
   ShoppingCartOutlined
 } from "@ant-design/icons";
 
+import { MdOutlineCollectionsBookmark } from "react-icons/md";
+
 import "./MenuList.scss";
 
 export default function MenuList() {
@@ -17,7 +19,7 @@ export default function MenuList() {
 
   const handleClick = (e) => {
     if(e.key === "login"){
-      window.location.replace("http://127.0.0.1:8000/api/logout/");
+      window.location.replace("/api/logout/");
     }
     else{
       navigate(`/${e.key}`);
@@ -50,15 +52,29 @@ export default function MenuList() {
       ],
     },
     {
+      key: "collection-list",
+      icon: <MdOutlineCollectionsBookmark />,
+      text: "collection",
+      children: [
+        {
+          key: "Favorite",
+          text: "Favorite",
+        },
+        {
+          key: "Wishlist",
+          text: "Wishlist",
+        },
+        {
+          key: "Others",
+          text: "Others",
+        },
+      ],
+    },
+    {
       key: "order",
       icon: <ShoppingCartOutlined />,
       text: "Order",
     },
-    // {
-    //   key: "order",
-    //   icon: <UserOutlined />,
-    //   text: "order",
-    // },
     {
       key: "login",
       icon: <LogoutOutlined />,
