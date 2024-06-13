@@ -10,7 +10,7 @@ import './CartItems.scss'
 
 const CartItems = ({ product_id, product_type, name, quantity, price, left }) => {
     const [cartQuantity, setCartQuantity] = React.useState(quantity);
-    const img = product_type === 'RAM' ? "http://localhost:5173/static/src/assets/images/ram.png" : product_type === 'HHD' ? "http://localhost:5173/static/src/assets/images/hdd.png" : "http://localhost:5173/static/src/assets/images/ssd.png";
+    const img = product_type === 'RAM' ? "http://localhost:5173/static/src/assets/images/ram.png" : product_type === 'HDD' ? "http://localhost:5173/static/src/assets/images/hdd.png" : "http://localhost:5173/static/src/assets/images/ssd.png";
     const formattedPrice = price.toLocaleString('zh-TW', { style: 'currency', currency: 'TWD' });
 
     return (
