@@ -159,7 +159,7 @@ export default function Ssd() {
               }}
               key={"addToCart"}
             >
-              Add to Cart
+              Add to <br /> Collection / Cart
             </th>
           </tr>
         </thead>
