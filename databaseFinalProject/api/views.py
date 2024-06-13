@@ -13,7 +13,7 @@ from .models import *
 from .serializers import *
 #import csv
 from datetime import datetime
-import random
+
 
 def readRAMInfo():  
     #type,brand,ddr_gen,channel,capacity,clock_rate,remark,price,original_info
@@ -113,7 +113,7 @@ def deleteAccount_view(request):
     """
     user_id = request.session["is_login"]
     Cart.objects.filter(user_id = user_id).delete()
-    Collection.objects.filter(user_id = user_id).delete()
+    Collectionss.objects.filter(user_id = user_id).delete()
     orders = Order.objects.filter(user_id = user_id)
     for o in orders:
         Order_Product.objects.filter(order_id = o.order_id).delete()
@@ -462,7 +462,6 @@ def get_cart(request):
     except Exception as e:
         return JsonResponse({"cart": "None"})
 
-
 @api_view(["POST"])
 def create_collection(request):
     try:
@@ -471,31 +470,15 @@ def create_collection(request):
         except:
             messages.warning(request, "You need to log in first")
             return redirect("/login/")
-        collection_name = request.data["collection_name"]
-        product_id = request.data.get("product_id")  # allow empty product_id
-
+        collection_name = request.Data["collection_name"]
         # Check if collection name already exists
-        if Collection.objects.filter(
-            user_id=user_id, collection_name=collection_name
-        ).exists():
-            return Response({"error": "Collection already exists"})
-
-        if product_id is not None:
-            # Chek if product exists
-            if not Product.objects.filter(product_id=product_id).exists():
-                return Response({"error": "Product does not exist"})
+        if Collectionss.objects.filter(user_id=user_id, collection_name=collection_name).exists():
+            #return Response({"error": "Collection already exists"})
+            return redirect('/collection')
 
         # create new collection
-        collection = Collection.objects.create(
-            user_id=user_id, collection_name=collection_name, product_id=product_id
-        )
-        return Response(
-            {
-                "message": "Collection created successfully",
-                "collection_id": collection.collection_id,
-                "collection_name": collection.collection_name,
-            }
-        )
+        Collectionss(user_id=user_id, collection_name=collection_name).save()
+        return redirect('/collection')
 
     except KeyError:
         return Response({"error": "Invalid data"})
@@ -512,7 +495,7 @@ def delete_collection(request):
         collection_name = request.data["collection_name"]
 
         # Check if collection exists
-        collections = Collection.objects.filter(
+        collections = Collectionss.objects.filter(
             user_id=user_id, collection_name=collection_name
         )
 
@@ -526,7 +509,6 @@ def delete_collection(request):
     except KeyError:
         return Response({"error": "Invalid data"})
 
-
 @api_view(["POST"])
 def add_to_collection(request):
     try:
@@ -535,50 +517,40 @@ def add_to_collection(request):
         except:
             messages.warning(request, "You need to log in first")
             return redirect("/login/") 
-        collection_name = request.data["collection_name"]
-        product_id = request.data["product_id"]
+        collection_name = request.POST.get("collection_name")
+        product_id = request.POST.get("ProductID")
 
         # Check if product exists
         if not Product.objects.filter(product_id=product_id).exists():
             return Response({"error": "Product does not exist"})
 
         # Check if collection exists
-        if not Collection.objects.filter(
-            user_id=user_id, collection_name=collection_name
-        ).exists():
-            return Response({"error": "Collection does not exist"})
-
-        # Check if product is already in the collection
-        if Collection.objects.filter(
-            user_id=user_id, collection_name=collection_name, product_id=product_id
-        ).exists():
-            return Response({"error": "Product is already in the collection"})
-
-        # Add product to collection
-        Collection.objects.create(
-            user_id=user_id, collection_name=collection_name, product_id=product_id
-        )
-
-        return Response({"message": "Product added to collection successfully"})
-
+        if not Collectionss.objects.filter(user_id=user_id, name=collection_name, product_id = product_id).exists():
+            Collectionss(user_id=user_id, name=collection_name, product_id = product_id).save()
+        rep = "/" + collection_name
+        return redirect(rep)
     except KeyError:
         return Response({"error": "Invalid data"})
 
 
-@api_view(["DELETE"])
 def remove_from_collection(request):
     try:
-        collection_id = request.data["collection_id"]
+        try:
+            user_id = request.session["is_login"] 
+        except:
+            messages.warning(request, "You need to log in first")
+            return redirect("/login/") 
+        
+        collection_name = request.POST.get("collection_name")
+        product_id = request.POST.get("ProductID")
 
-        # Check if the collection exists
-        collection = Collection.objects.filter(collection_id=collection_id).first()
-
-        if not collection:
-            return Response({"error": "Collection not found"})
-
-        collection.delete()
-
-        return Response({"message": "Product removed from collection successfully"})
+        try:
+            collection = Collectionss.objects.get(user_id = user_id, name = collection_name, product_id = product_id)
+            collection.delete()
+        except:
+            return Response({"message": "Failed to remove product"})
+        rep = "/" + collection_name
+        return redirect(rep)
 
     except KeyError:
         return Response({"error": "Invalid data"})
@@ -592,28 +564,36 @@ def get_collection_products(request):
         except:
             messages.warning(request, "You need to log in first")
             return redirect("/login/")
-        collection_name = request.query_params.get("collection_name")
-
-        if not user_id or not collection_name:
-            return Response({"error": "User ID and collection name are required"})
 
         # Get products in collection
-        collections = Collection.objects.filter(
-            user_id=user_id, collection_name=collection_name
-        )
-
-        if not collections.exists():
-            return Response({"message": "Collection is empty or does not exist"})
+        collections = ["Favorites", "Wishlist", "Others"]
 
         # Create product list
-
-        products = []
-        for item in collections:
-            product = Product.objects.get(product_id=item.product_id)
-            product_serializer = ProductSerializer(product)
-            products.append(product_serializer.data)
-
-        return Response({"collection": collection_name, "products": products})
+        all_collections = []
+        for c in collections:
+            products = []
+            items = Collectionss.objects.filter(name = c, user_id=user_id)
+            for i in items:
+                product = Product.objects.get(product_id=i.product_id)
+                product_serializer = ProductSerializer(product)
+                if product.product_type == "RAM":
+                    tmp = RAM.objects.get(product_id = i.product_id)
+                    pname = tmp.ram_type + "("+ product.brand +")"
+                    capacity = tmp.capacity
+                elif product.product_type == "HDD":
+                    tmp = HDD.objects.get(product_id = i.product_id)
+                    pname = tmp.hdd_type + "("+ product.brand +")"
+                    capacity = tmp.capacity
+                elif product.product_type == "SSD":
+                    tmp = SSD.objects.get(product_id = i.product_id)
+                    pname = tmp.ssd_type + "("+ product.brand +")"
+                    capacity = tmp.capacity
+                products.append(product_serializer.data|{"name": pname, "capacity": capacity})
+            if len(items) == 0:
+                all_collections.append({c: "no item"})
+            else:
+                all_collections.append({c: products})
+        return Response(all_collections)
 
     except Exception as e:
         return Response({"error": str(e)})
@@ -622,10 +602,11 @@ def get_collection_products(request):
 @api_view(["GET"])
 def get_user_collections(request):
     try:
-        user_id = request.session["is_login"] 
-
-        if not user_id:
-            return Response({"error": "User ID is required"})
+        try:
+            user_id = request.session["is_login"] 
+        except:
+            messages.warning(request, "You need to log in first")
+            return redirect("/login/")
 
         # Get user's collections
         collections = (
@@ -635,12 +616,12 @@ def get_user_collections(request):
         )
 
         if not collections.exists():
-            return Response({"message": "No collections found for this user"})
+            return Response({"collections": "No collections found for this user"})
 
         # Create collection list
         collection_list = [collection["collection_name"] for collection in collections]
 
-        return Response({"user_id": user_id, "collections": collection_list})
+        return Response({"collections": collection_list})
 
     except Exception as e:
         return Response({"error": str(e)})
