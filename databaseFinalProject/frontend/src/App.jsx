@@ -53,7 +53,6 @@ function AppContent() {
               <Route path="/Favorite" element={<Favorite />} />
               <Route path="/Wishlist" element={<Wishlist />} />
               <Route path="/Others" element={<Others />} />
-              <Route path="/testing" element={<Order />} />
             </Routes>
           </Content>
         </Layout>
