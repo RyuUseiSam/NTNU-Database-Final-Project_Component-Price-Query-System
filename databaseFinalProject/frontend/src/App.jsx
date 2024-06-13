@@ -17,12 +17,16 @@ import Ram from "./pages/Product/Ram";
 import Hdd from "./pages/Product/Hdd";
 import Ssd from "./pages/Product/Ssd";
 import Order from "./pages/Order/Order";
+import Favorite from "./pages/Collection/Favorite";
+import Wishlist from "./pages/Collection/Wishlist";
+import Others from "./pages/Collection/Others";
 
 // Testing
 import Testing from "./pages/Testing";
 
 // Login
 import LoginForm from "./pages/LoginForm/LoginForm";
+
 
 const { Header, Sider, Content } = Layout;
 
@@ -40,12 +44,15 @@ function AppContent() {
         <Layout>
           <Content className="content">
             <Routes>
-              <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/ram" element={<Ram />} />
               <Route path="/ssd" element={<Ssd />} />
               <Route path="/hdd" element={<Hdd />} />
               <Route path="/order" element={<Order />} />
+              <Route path="/Favorite" element={<Favorite />} />
+              <Route path="/Wishlist" element={<Wishlist />} />
+              <Route path="/Others" element={<Others />} />
               <Route path="/testing" element={<Order />} />
             </Routes>
           </Content>
@@ -70,7 +77,6 @@ function App() {
   return (
     <ShoppingCartProvider>
       <BrowserRouter>
-        {/* For Frontend Testing Mode */}
         {/* <BrowserRouter basename="/static"> */}
         <AppContent />
       </BrowserRouter>
