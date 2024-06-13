@@ -5,13 +5,13 @@ import './UserProfileCard.scss'
 import { FaPenAlt } from "react-icons/fa";
 
 const getData = async () => {
-  let response = await fetch("http://127.0.0.1:8000/api/get_username/");
+  let response = await fetch("/api/get_username/");
   let Data = await response.json();
   return Data;
 };
 let Data = await getData();
 if(Data["username"] == " "){
-  window.location.replace("http://127.0.0.1:8000/login/");
+  window.location.replace("/login/");
 }
 
 const UserProfileCard = () => {
