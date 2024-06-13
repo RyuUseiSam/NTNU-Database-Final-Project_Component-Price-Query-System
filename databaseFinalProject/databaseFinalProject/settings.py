@@ -88,18 +88,7 @@ DATABASES = {
         'PORT': '3310',  #PostgreSQL Port號
     }
 }
-"""
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'DBFinalProject',  #資料庫名稱
-        'USER': 'postgres',  #資料庫帳號
-        'PASSWORD': 'vm3bjo45pA',  #資料庫密碼
-        'HOST': '127.0.0.1',  #Server(伺服器)位址
-        'PORT': '5432'  #PostgreSQL Port號
-    }
-}
-"""
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
