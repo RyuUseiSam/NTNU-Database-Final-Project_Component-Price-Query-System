@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import ShoppingCartTable from '../../components/ShoppingCartTable/ShoppingCartTable'
 import { MdDeleteForever } from "react-icons/md";
+import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
 import './Collection.scss'
 
 type CartItemType = {
@@ -17,14 +18,14 @@ const getData = async () => {
     return Data;
   };
 let Data = await getData();
-console.log(Data[1]["Wishlist"]);
+//console.log(Data[1]["Wishlist"]);
 
 const Collectoin = () => {
     //For django, we need to send a request to the server to get the order history
     const [userCollections, setUserCollections] = useState(["Favorite", "Wishlist", "Others"])
     //------------------For Django API-------------------/
     const getImg = (product_type: string) => {
-        return product_type === 'RAM' ? "http://localhost:5173/static/src/assets/images/ram.png" : product_type === 'HDD' ? "http://localhost:5173/static/src/assets/images/hdd.png" : "http://localhost:5173/static/src/assets/images/ssd.png";
+        return product_type === 'RAM' ? "https://1xb0tgjf-5173.asse.devtunnels.ms/static/src/assets/images/ram.png" : product_type === 'HDD' ? "https://1xb0tgjf-5173.asse.devtunnels.ms/static/src/assets/images/hdd.png" : "https://1xb0tgjf-5173.asse.devtunnels.ms/static/src/assets/images/ssd.png";
     }
     // Initialize the userCollections when the page loads
     if(Data[1]["Wishlist"]!="no item"){
@@ -51,7 +52,8 @@ const Collectoin = () => {
                         <th>Name</th>
                         <th>Capacity</th>
                         <th>Price</th>
-                        <th></th>
+                        <th>Add to Cart</th>
+                        <th>Remove</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -62,6 +64,13 @@ const Collectoin = () => {
                             <td>{item.name}</td>
                             <td>{item.capacity}</td>
                             <td>{item.price}</td>
+                            <td>
+                            <form action="/api/add_to_cart/" role="form" method="post">
+                                <input type="text" name="ProductID" style={{display: 'none'}} value={item.product_id} />
+                                <input type="text" name="page" style={{display: 'none'}} value="hdd" />
+                                <AddToCartButton />
+                            </form>
+                            </td>
                             <td>
                             <form action="/api/remove_from_collection/" role="form" method="post">
                                 <input type="text" name="collection_name" style={{display: 'none'}} value="Wishlist" />
